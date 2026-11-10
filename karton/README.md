@@ -1,47 +1,48 @@
 # Lernkasten DIN A7 aus Wellpappe – NgarumaVTC
 
 Leitner-Lernkasten für DIN-A7-Karteikarten (105 × 74 mm, quer stehend) mit fünf Fächern aus
-brauner Wellpappe, geklebt mit Sprühkleber und Winkeln aus Karteikartenpapier (KKP 205 g).
+brauner Wellpappe, geklebt mit Sprühkleber und Winkeln aus Kopierpapier (80 g/m², A4).
+Die Winkel übertragen nur Zug und Schub, dafür reicht normales Papier.
 
 ## Aufbau
 
 1. **Fünf Innenkästen**, oben offen, alle gleich breit und hoch, verschieden tief. Jeder Kasten hat einen Boden,
    2 Längsseiten (sie stehen auf dem Boden) und 2 Stirnwände (zwischen den Längsseiten).
-   Die Kanten werden **außen** mit KKP-Winkeln verklebt: 4 senkrechte Ecken und 4 Bodenkanten.
+   Die Kanten werden **außen** mit Papierwinkeln verklebt: 4 senkrechte Ecken und 4 Bodenkanten.
 2. Die Innenkästen werden in einer Reihe **aneinandergeklebt**. Zwei Stirnwände nebeneinander ergeben die Trennwand.
 3. Der **Außenkasten** hat keine Winkel. Er wird flächig auf den Block gesprüht, zuerst der Boden unter den Block,
    dann die Stirnwände an die Enden, zuletzt die Längsseiten über alles.
 
-So verdecken die Nachbarkästen und der Außenkasten die KKP-Winkel weitgehend.
+So verdecken die Nachbarkästen und der Außenkasten die Papierwinkel weitgehend.
 In allen Wänden laufen die Wellen **senkrecht**, von oben sieht man also in die Wellen. In den Böden laufen sie längs.
 
-## Maße (t = 3 mm)
+## Maße (t = 4 mm)
 
 | | |
 |---|---|
-| Außenmaß | 386 × 121 × 50 mm |
-| Lichte Breite / Höhe | 109 mm (Karte 105) / 44 mm, die Karte ragt 30 mm heraus |
+| Außenmaß | 398 × 125 × 50 mm |
+| Lichte Breite / Höhe | 109 mm (Karte 105) / 42 mm, die Karte ragt 32 mm heraus |
 | Fächer, lichte Länge | 25 / 40 / 60 / 90 / 135 mm (≈ 100 / 160 / 240 / 360 / 540 Karten) |
-| Trennwände | 2 t = 6 mm |
+| Trennwände | 2 t = 8 mm |
 
-## Teile pro Kasten (t = 3 mm; quer × längs der Welle)
+## Teile pro Kasten (t = 4 mm; quer × längs der Welle)
 
 | | Teil | Stück | Maß |
 |---|---|---|---|
-| A | Außen-Längsseite | 2 | 386 × 50 |
-| E | Außen-Stirnwand | 2 | 115 × 50 |
-| U | Außenboden | 1 | 115 × 380 |
-| S | Stirnwand innen | 10 | 109 × 44 |
-| L1–L5 | Längsseite Kasten n | je 2 | 31 / 46 / 66 / 96 / 141 × 44 |
-| B1–B5 | Boden Kasten n | je 1 | 115 × 31 / 46 / 66 / 96 / 141 |
-| K | KKP-Winkel, Streifen 30 mm, mittig gefalzt | 40 | 4 × 47, 2 × Kastenlänge, 2 × 115 je Kasten |
+| A | Außen-Längsseite | 2 | 398 × 50 |
+| E | Außen-Stirnwand | 2 | 117 × 50 |
+| U | Außenboden | 1 | 117 × 390 |
+| S | Stirnwand innen | 10 | 109 × 42 |
+| L1–L5 | Längsseite Kasten n | je 2 | 33 / 48 / 68 / 98 / 143 × 42 |
+| B1–B5 | Boden Kasten n | je 1 | 117 × 33 / 48 / 68 / 98 / 143 |
+| K | Papierwinkel, Streifen 30 mm, mittig gefalzt | 40 | 4 × 46, 2 × Kastenlänge, 2 × 117 je Kasten |
 
 ## Erzeugen
 
 ```sh
 cd karton
 freecadcmd lernkasten.py                  # ca. 10 s
-LERNKASTEN_T=4 freecadcmd lernkasten.py   # andere Kartonstärke
+LERNKASTEN_T=3 freecadcmd lernkasten.py   # andere Kartonstärke
 ```
 
 Die Parameter stehen oben in `lernkasten.py`, darunter `T`, `H`, `FACH`, `ANGLE_LEG`, `BOARD` und `N_BOXES`.
@@ -53,16 +54,16 @@ Ränder einhält.
 |---|---|
 | `lernkasten.FCStd` / `.step` | Zusammenbau, Parameter-Tabelle |
 | `dxf/<teil>.dxf` | Einzelteile (Layer `AUSSEN` schneiden, `INFO` = Wellenpfeil) |
-| `zuschnitt.pdf` / `.dxf` | Teileliste, Satzskizze, KKP-Winkel, Bedarf für die Serie |
+| `zuschnitt.pdf` / `.dxf` | Teileliste, Satzskizze, Papierwinkel, Bedarf für die Serie |
 | `bogen.pdf` / `.dxf` | Nest auf einem Wellpappbogen (`BOARD`, Wellen parallel zur zweiten Seite) |
 | `montage.pdf` | Anleitung Englisch / Kiswahili mit Zuschnittliste |
 
 Im Nest werden die Teile nicht gedreht, damit die Wellenrichtung stimmt. Bei 1200 × 800 passen 3 Kästen auf einen Bogen.
-Für 120 Kästen plus 5 % Ausschuss sind das **42 Bögen**. Dazu kommen etwa 1,4 Bogen KKP A4 je Kasten.
+Für 120 Kästen plus 5 % Ausschuss sind das **42 Bögen**. Dazu kommen etwa 1,6 Blatt Kopierpapier A4 je Kasten (knapp 200 Blatt für die Serie).
 
 ## Vor der Serie
 
-1. **Kartonstärke messen** und in `T` eintragen, dann neu erzeugen. Alle Maße passen sich an.
+1. **Kartonstärke nachmessen** (angesetzt sind 4 mm) und bei Abweichung `T` ändern, dann neu erzeugen. Alle Maße passen sich an.
 2. **Probekasten** bauen. Passt die Karte in der Breite nicht leicht hinein, `PLAY_W` erhöhen.
 3. `BOARD` an das Bogenformat anpassen, das man tatsächlich bekommt.
 

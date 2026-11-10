@@ -6,12 +6,12 @@ Lernkasten DIN A7 – fünf Fächer, braune Wellpappe
 Parametrische FreeCAD-Konstruktion für NgarumaVTC.
 
 Aufruf (headless):   cd karton && freecadcmd lernkasten.py
-Kartonstärke testen: LERNKASTEN_T=4 freecadcmd lernkasten.py
+Kartonstärke testen: LERNKASTEN_T=3 freecadcmd lernkasten.py
 
 Aufbau:
   1. Fünf offene Innenkästen, gleich breit und hoch, verschieden tief.
      Je Kasten: Boden, 2 Längsseiten (stehen auf dem Boden), 2 Stirnwände
-     (zwischen den Längsseiten). Kanten außen mit KKP-Winkeln verklebt.
+     (zwischen den Längsseiten). Kanten außen mit Papierwinkeln verklebt.
   2. Die fünf Innenkästen aneinander geklebt (Trennwand = 2 Stirnwände).
   3. Außenkasten ohne Winkel flächig auf den Block gesprüht: Boden unter
      den Block, Stirnwände an die Enden, Längsseiten über alles.
@@ -23,7 +23,7 @@ Erzeugt in ./build/:
   lernkasten.FCStd   Zusammenbau + Parameter
   lernkasten.step    Zusammenbau
   dxf/<teil>.dxf     Einzelteile (Layer AUSSEN, Wellenpfeil auf INFO)
-  zuschnitt.pdf      Teileliste, Skizzen eines Satzes, KKP-Streifen, Bedarf
+  zuschnitt.pdf      Teileliste, Skizzen eines Satzes, Papierstreifen, Bedarf
   bogen.dxf/.pdf     Nest auf einem Wellpappbogen
   montage.pdf        Montageanleitung Englisch / Kiswahili
 """
@@ -41,8 +41,8 @@ V = App.Vector
 #  PARAMETER  (alle Maße in mm)
 # ═════════════════════════════════════════════════════════════════════
 
-T = float(os.environ.get("LERNKASTEN_T", "3.0"))   # Kartonstärke – AM ECHTEN KARTON MESSEN!
-K = 0.25           # Dicke KKP 205 g (nur Info, nicht im Modell)
+T = float(os.environ.get("LERNKASTEN_T", "4.0"))   # Kartonstärke – AM ECHTEN KARTON MESSEN!
+K = 0.1            # Dicke Kopierpapier 80 g/m² (nur Info, nicht im Modell)
 
 CARD_W, CARD_H = 105.0, 74.0   # DIN A7, quer stehend
 PLAY_W = 4.0                   # Luft der Karte in der Breite
@@ -51,8 +51,8 @@ FACH = [25.0, 40.0, 60.0, 90.0, 135.0]   # lichte Fachlängen, Fach 1 … 5
 
 H = 50.0           # Außenhöhe
 
-ANGLE_LEG = 15.0   # Schenkelbreite der KKP-Winkel (Streifen 2 × so breit)
-KKP_SHEET = (210.0, 297.0)   # KKP-Bogen A4
+ANGLE_LEG = 15.0   # Schenkelbreite der Papierwinkel (Streifen 2 × so breit)
+PAPER_SHEET = (210.0, 297.0)   # Kopierpapier A4, 80 g/m²
 
 # Serie
 BOARD = (1200.0, 800.0)      # Wellpappbogen; Wellen laufen parallel zur 2. Zahl
@@ -153,14 +153,14 @@ def build_parts():
 
 
 def angles_of_box(lb):
-    """KKP-Winkel eines Innenkastens: Liste (Kante, Länge)."""
+    """Papierwinkel eines Innenkastens: Liste (Kante, Länge)."""
     return ([("vertical", H - T)] * 4 +
             [("bottom long", lb)] * 2 +
             [("bottom end", WB)] * 2)
 
 
 def angle_solids(x0, lb):
-    """Nur zur Darstellung: KKP-Winkel als dünne Platten außen am Innenkasten."""
+    """Nur zur Darstellung: Papierwinkel als dünne Platten außen am Innenkasten."""
     k, a = 0.6, ANGLE_LEG        # optisch etwas dicker als echt
     y0, y1 = T, T + WB
     z0, z1 = T, H
@@ -217,10 +217,10 @@ def check_assembly(asm):
 
 
 # ═════════════════════════════════════════════════════════════════════
-#  KKP-Streifen
+#  Papierstreifen
 # ═════════════════════════════════════════════════════════════════════
 
-def kkp_strips():
+def paper_strips():
     """Alle Winkel eines Kastens, Streifenbreite 2·ANGLE_LEG.
     Rückgabe: [(länge, anzahl, kasten)], Streifen pro Bogen, Bögen je Kasten."""
     rows = []
@@ -233,11 +233,11 @@ def kkp_strips():
         for ln, c in sorted(cnt.items(), reverse=True):
             rows.append((ln, c, i + 1))
     sw = 2 * ANGLE_LEG
-    long_side = max(KKP_SHEET)
-    strips_per_sheet = int(min(KKP_SHEET) // sw)
+    long_side = max(PAPER_SHEET)
+    strips_per_sheet = int(min(PAPER_SHEET) // sw)
     too_long = [x for x in lengths if x > long_side]
     if too_long:
-        raise RuntimeError("KKP-Winkel länger als Bogen: %s" % too_long)
+        raise RuntimeError("Papierwinkel länger als Bogen: %s" % too_long)
     # First-Fit-Decreasing auf Streifen der Bogenlänge
     bins = []
     for ln in sorted(lengths, reverse=True):
@@ -487,7 +487,7 @@ def check_nest(faces, x0, y0, x1, y1, what):
 CARD = (0xc4, 0x93, 0x5a)       # Wellpappe braun
 CARD_ALT = (0xa8, 0x78, 0x45)
 CARD_OUT = (0xd6, 0xae, 0x7a)
-PAPER = (0xf4, 0xef, 0xe1)      # KKP
+PAPER = (0xf4, 0xef, 0xe1)      # Kopierpapier
 INK = "#3b2a1a"
 ACCENT = "#7a3e12"
 
@@ -580,8 +580,8 @@ def nest_svg(faces, area_w, area_h, x0, y0, scale, outline):
     return b
 
 
-def zuschnitt(prof, set_faces, set_w, set_h, kkp, board_info):
-    """Seite A4 quer: Teileliste + Skizze eines Satzes + KKP + Bedarf."""
+def zuschnitt(prof, set_faces, set_w, set_h, strips, board_info):
+    """Seite A4 quer: Teileliste + Skizze eines Satzes + Papierwinkel + Bedarf."""
     Wp, Hp = 297.0, 210.0
     b = text(12, 16, "Lernkasten A7 aus Wellpappe – Zuschnitt", 6.5, style="b")
     b += text(12, 23, "Außenmaß %.0f × %.0f × %.0f mm · Kartonstärke t = %.2f mm · "
@@ -612,8 +612,8 @@ def zuschnitt(prof, set_faces, set_w, set_h, kkp, board_info):
     b += text(cols[1], y + 1, "%d Teile, %.3f m² Wellpappe netto" % (npcs, area / 1e6), 3.3,
               style="i")
     y += 10
-    rows, n_ang, n_strips, per_sheet, sheets = kkp
-    b += text(12, y, "KKP-Winkel (Karteikartenpapier 205 g)", 3.8, style="b")
+    rows, n_ang, n_strips, per_sheet, sheets = strips
+    b += text(12, y, "Papierwinkel (Kopierpapier 80 g/m²)", 3.8, style="b")
     y += 5.2
     for ln in wrap("Streifen %.0f mm breit, mittig gefalzt (Schenkel %.0f mm). Je Innenkasten "
                    "4 senkrechte Ecken à %.0f mm und 4 Bodenkanten, alle außen. Der Außenkasten "
@@ -628,8 +628,8 @@ def zuschnitt(prof, set_faces, set_w, set_h, kkp, board_info):
                    + " mm", 72):
         b += text(12, y, ln, 3.3)
         y += 4.4
-    b += text(12, y, "%d Winkel → %d Streifen à %.0f mm → %.2f Bogen A4 je Kasten"
-              % (n_ang, n_strips, max(KKP_SHEET), sheets), 3.3)
+    b += text(12, y, "%d Winkel → %d Streifen à %.0f mm → %.2f Blatt A4 je Kasten"
+              % (n_ang, n_strips, max(PAPER_SHEET), sheets), 3.3)
     y += 9
     b += text(12, y, "Bedarf für %d Kästen (+%.0f %% Ausschuss)" % (N_BOXES, SCRAP * 100), 3.8,
               style="b")
@@ -784,8 +784,8 @@ TOOLS = [
      "Rula ya chuma, pembemraba, penseli, ubao mnene wa kukatia"),
     ("Bone folder or blunt knife back for folding", "Kifaa cha kukunja au mgongo butu wa kisu"),
     ("Spray adhesive, newspaper to cover the table", "Gundi ya kunyunyiza, magazeti ya kufunika meza"),
-    ("Corrugated cardboard, card paper 205 g (KKP)",
-     "Kadibodi ya mawimbi ya kahawia, karatasi ya kadi 205 g"),
+    ("Corrugated cardboard, copy paper A4 80 g",
+     "Kadibodi ya mawimbi ya kahawia, karatasi ya kawaida A4 80 g"),
 ]
 
 
@@ -797,17 +797,17 @@ def steps():
          "Kata vipande vyote vya orodha. Katika kila ukuta mawimbi yanaenda juu na chini: ukitazama "
          "kutoka juu unaona matundu ya mawimbi. Katika vitako mawimbi yanafuata upande mrefu. Kata "
          "kwa mipigo kadhaa myepesi kando ya rula ya chuma, pembe ziwe za mraba."),
-        ("Cut KKP strips %.0f mm wide and fold each one lengthwise in the middle, so that it "
+        ("Cut paper strips %.0f mm wide and fold each one lengthwise in the middle, so that it "
          "forms an angle with two legs of %.0f mm. Cut them to the lengths in the list."
          % (2 * ANGLE_LEG, ANGLE_LEG),
-         "Kata vipande vya KKP vyenye upana wa mm %.0f na kunja kila kimoja katikati kwa urefu "
+         "Kata vipande vya karatasi vyenye upana wa mm %.0f na kunja kila kimoja katikati kwa urefu "
          "wake, kiwe pembe yenye pande mbili za mm %.0f. Vikate kwa urefu wa orodha."
          % (2 * ANGLE_LEG, ANGLE_LEG)),
         ("Build one inner box: put the two long walls L on the bottom B, the two end walls S "
-         "stand between them. Glue the KKP angles on the outside: first the 4 bottom edges, "
+         "stand between them. Glue the paper angles on the outside: first the 4 bottom edges, "
          "then the 4 upright corners. Spray the angle, wait a moment, press it on firmly.",
          "Jenga sanduku moja la ndani: weka kuta mbili ndefu L juu ya kitako B, kuta mbili za "
-         "mwisho S zinasimama katikati yake. Gundisha pembe za KKP kwa nje: kwanza kingo 4 za "
+         "mwisho S zinasimama katikati yake. Gundisha pembe za karatasi kwa nje: kwanza kingo 4 za "
          "chini, kisha pembe 4 zilizosimama. Nyunyiza gundi kwenye pembe, subiri kidogo, kisha "
          "ibonyeze kwa nguvu."),
         ("Make all five inner boxes 1 to 5 this way. Each box must be square and a card must "
@@ -858,7 +858,7 @@ def write_steps(b, items, first, y):
     return b, y
 
 
-def montage(prof, asm, kkp):
+def montage(prof, asm, strips):
     col = {"A": CARD_OUT, "E": CARD_OUT, "U": CARD_OUT, "S": CARD_ALT}
     color = lambda k: col.get(k, CARD)
     label = lambda k: k[0] if k[0] in "LB" else k
@@ -893,10 +893,10 @@ def montage(prof, asm, kkp):
         b += text(160, y, "%.0f mm" % bb.XLength, 3.5, "end")
         b += text(194, y, "%.0f mm" % bb.YLength, 3.5, "end")
         y += 5.0
-    rows, n_ang, n_strips, per_sheet, sheets = kkp
+    rows, n_ang, n_strips, per_sheet, sheets = strips
     y += 2
     b += text(17, y, "K", 3.5, style="b", fill=ACCENT)
-    b += text(26, y, "KKP angles, strip %.0f mm wide · pembe za KKP, upana mm %.0f"
+    b += text(26, y, "paper angles, strip %.0f mm wide · pembe za karatasi, upana mm %.0f"
               % (2 * ANGLE_LEG, 2 * ANGLE_LEG), 3.5)
     y += 5.0
     for i, lb in enumerate(LBOX):
@@ -939,10 +939,10 @@ def montage(prof, asm, kkp):
     b += iso_svg(withang, 78, 24, 52, 50, labels=False)
     b += iso_svg(row, 135, 24, 62, 50, labels=False)
     b += text(44, 80, "parts of one inner box", 3.0, "middle", "i", "#555")
-    b += text(104, 80, "KKP angles outside", 3.0, "middle", "i", "#555")
+    b += text(104, 80, "paper angles outside", 3.0, "middle", "i", "#555")
     b += text(166, 80, "five boxes in a row", 3.0, "middle", "i", "#555")
     b += text(44, 84, "vipande vya sanduku moja", 3.0, "middle", "i", "#555")
-    b += text(104, 84, "pembe za KKP kwa nje", 3.0, "middle", "i", "#555")
+    b += text(104, 84, "pembe za karatasi kwa nje", 3.0, "middle", "i", "#555")
     b += text(166, 84, "masanduku matano kwa mstari", 3.0, "middle", "i", "#555")
     b, y = write_steps(b, st[:5], 1, 96)
     if y > 282:
@@ -989,7 +989,7 @@ def build_document(asm):
     sp = doc.addObject("Spreadsheet::Sheet", "Parameter")
     rows = [("t", T, "Kartonstärke"), ("L", L, "Außenlänge"), ("W", W, "Außenbreite"),
             ("H", H, "Außenhöhe"), ("WI", WI, "lichte Breite"), ("HI", HI, "lichte Höhe"),
-            ("angle_leg", ANGLE_LEG, "KKP-Winkel Schenkel")]
+            ("angle_leg", ANGLE_LEG, "Papierwinkel Schenkel")]
     sp.set("A1", "Name"), sp.set("B1", "Wert [mm]"), sp.set("C1", "Bedeutung")
     for i, (n, v, d) in enumerate(rows):
         sp.set("A%d" % (i + 2), n)
@@ -1031,11 +1031,11 @@ def main():
         write_dxf_faces(os.path.join(OUT, "dxf", "%s_%s.dxf" % (k, name)),
                         [(k, moved(face, 0, 0))], labels=False)
 
-    log("— KKP-Winkel —")
-    kkp = kkp_strips()
-    rows, n_ang, n_strips, per_sheet, sheets = kkp
-    log("  %d Winkel je Kasten → %d Streifen %.0f × %.0f → %.2f Bogen A4 (%d Streifen/Bogen)"
-        % (n_ang, n_strips, 2 * ANGLE_LEG, max(KKP_SHEET), sheets, per_sheet))
+    log("— Papierwinkel —")
+    strips = paper_strips()
+    rows, n_ang, n_strips, per_sheet, sheets = strips
+    log("  %d Winkel je Kasten → %d Streifen %.0f × %.0f → %.2f Blatt A4 (%d Streifen/Blatt)"
+        % (n_ang, n_strips, 2 * ANGLE_LEG, max(PAPER_SHEET), sheets, per_sheet))
 
     log("— Bogennest %.0f × %.0f —" % BOARD)
     uw, uh = BOARD[0] - 2 * BOARD_MARGIN, BOARD[1] - 2 * BOARD_MARGIN
@@ -1069,14 +1069,14 @@ def main():
     board_info = [
         "Wellpappe: %d Bögen %.0f × %.0f mm (%d Kästen je Bogen, Ausnutzung %.0f %%)"
         % (boards, BOARD[0], BOARD[1], n, used * 100),
-        "KKP 205 g: %d Bogen A4" % int(math.ceil(need * sheets)),
+        "Kopierpapier 80 g: %d Blatt A4" % int(math.ceil(need * sheets)),
         "Sprühkleber: Klebefläche ca. %.2f m² je Kasten, %.0f m² gesamt"
         % (glue / 1e6, need * glue / 1e6),
     ]
-    zuschnitt(prof, set_faces, bb.XMax, bb.YMax, kkp, board_info)
+    zuschnitt(prof, set_faces, bb.XMax, bb.YMax, strips, board_info)
 
     log("— Montageanleitung —")
-    montage(prof, asm, kkp)
+    montage(prof, asm, strips)
 
     log("— FreeCAD-Dokument / STEP —")
     build_document(asm)
