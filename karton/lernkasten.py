@@ -25,7 +25,7 @@ Erzeugt in ./build/:
   dxf/<teil>.dxf     Einzelteile (Layer AUSSEN, Wellenpfeil auf INFO)
   zuschnitt.pdf      Teileliste, Skizzen eines Satzes, Papierstreifen, Bedarf
   bogen.dxf/.pdf     Nest auf einem Wellpappbogen
-  montage.pdf        Montageanleitung Englisch / Kiswahili
+  montage.pdf        Montageanleitung Englisch / Kiswahili / Deutsch
 """
 
 import math
@@ -511,6 +511,17 @@ def text(x, y, s, size=3.5, anchor="start", style="", fill="#1a1a1a"):
             % (x, y, size, anchor, fill, st, esc(s)))
 
 
+def text_runs(x, y, runs, size=3.5, anchor="start"):
+    """Eine Zeile aus mehreren Abschnitten [(text, style, fill)]."""
+    out = ('<text x="%.2f" y="%.2f" font-size="%.2f" text-anchor="%s" xml:space="preserve">'
+           % (x, y, size, anchor))
+    for s, style, fill in runs:
+        st = ' font-style="italic"' if "i" in style else ""
+        st += ' font-weight="bold"' if "b" in style else ""
+        out += '<tspan fill="%s"%s>%s</tspan>' % (fill, st, esc(s))
+    return out + "</text>\n"
+
+
 def rect_svg(x, y, w, h, fill="#e6c79c", stroke=INK, sw=0.3, flutes=True, pitch=2.5):
     """Rechteck mit senkrechten Linien = Wellenrichtung."""
     out = ('<rect x="%.3f" y="%.3f" width="%.3f" height="%.3f" fill="%s" stroke="%s" '
@@ -775,17 +786,22 @@ def iso_svg(solids, x0, y0, w, h, labels=True, sw=0.18):
 
 
 # ═════════════════════════════════════════════════════════════════════
-#  Montageanleitung (Englisch / Kiswahili)
+#  Montageanleitung (Englisch / Kiswahili / Deutsch)
 # ═════════════════════════════════════════════════════════════════════
 
-TOOLS = [
-    ("Sharp cutter knife, spare blades", "Kisu kikali (cutter) na vipande vya akiba"),
+TOOLS = [   # (englisch, kiswahili, deutsch)
+    ("Sharp cutter knife, spare blades", "Kisu kikali (cutter) na vipande vya akiba",
+     "Scharfes Cuttermesser, Ersatzklingen"),
     ("Steel ruler, square, pencil, cutting board",
-     "Rula ya chuma, pembemraba, penseli, ubao mnene wa kukatia"),
-    ("Bone folder or blunt knife back for folding", "Kifaa cha kukunja au mgongo butu wa kisu"),
-    ("Spray adhesive, newspaper to cover the table", "Gundi ya kunyunyiza, magazeti ya kufunika meza"),
+     "Rula ya chuma, pembemraba, penseli, ubao mnene wa kukatia",
+     "Stahllineal, Winkel, Bleistift, Schneidunterlage"),
+    ("Bone folder or blunt knife back for folding", "Kifaa cha kukunja au mgongo butu wa kisu",
+     "Falzbein oder stumpfer Messerrücken zum Falzen"),
+    ("Spray adhesive, newspaper to cover the table", "Gundi ya kunyunyiza, magazeti ya kufunika meza",
+     "Sprühkleber, Zeitungspapier zum Abdecken des Tisches"),
     ("Corrugated cardboard, copy paper A4 80 g",
-     "Kadibodi ya mawimbi ya kahawia, karatasi ya kawaida A4 80 g"),
+     "Kadibodi ya mawimbi ya kahawia, karatasi ya kawaida A4 80 g",
+     "Wellpappe, Kopierpapier A4 80 g"),
 ]
 
 
@@ -796,12 +812,18 @@ def steps():
          "several light strokes along the steel ruler, keep the corners square.",
          "Kata vipande vyote vya orodha. Katika kila ukuta mawimbi yanaenda juu na chini: ukitazama "
          "kutoka juu unaona matundu ya mawimbi. Katika vitako mawimbi yanafuata upande mrefu. Kata "
-         "kwa mipigo kadhaa myepesi kando ya rula ya chuma, pembe ziwe za mraba."),
+         "kwa mipigo kadhaa myepesi kando ya rula ya chuma, pembe ziwe za mraba.",
+         "Alle Teile nach der Liste zuschneiden. In allen Wänden laufen die Wellen senkrecht: "
+         "Von oben sieht man in die offenen Wellen. In den Böden laufen die Wellen längs. Mit "
+         "mehreren leichten Zügen am Stahllineal entlang schneiden, die Ecken rechtwinklig halten."),
         ("Cut paper strips %.0f mm wide and fold each one lengthwise in the middle, so that it "
          "forms an angle with two legs of %.0f mm. Cut them to the lengths in the list."
          % (2 * ANGLE_LEG, ANGLE_LEG),
          "Kata vipande vya karatasi vyenye upana wa mm %.0f na kunja kila kimoja katikati kwa urefu "
          "wake, kiwe pembe yenye pande mbili za mm %.0f. Vikate kwa urefu wa orodha."
+         % (2 * ANGLE_LEG, ANGLE_LEG),
+         "Papierstreifen %.0f mm breit schneiden und jeden der Länge nach mittig falzen, so dass "
+         "ein Winkel mit zwei Schenkeln von je %.0f mm entsteht. Auf die Längen der Liste ablängen."
          % (2 * ANGLE_LEG, ANGLE_LEG)),
         ("Build one inner box: put the two long walls L on the bottom B, the two end walls S "
          "stand between them. Glue the paper angles on the outside: first the 4 bottom edges, "
@@ -809,25 +831,38 @@ def steps():
          "Jenga sanduku moja la ndani: weka kuta mbili ndefu L juu ya kitako B, kuta mbili za "
          "mwisho S zinasimama katikati yake. Gundisha pembe za karatasi kwa nje: kwanza kingo 4 za "
          "chini, kisha pembe 4 zilizosimama. Nyunyiza gundi kwenye pembe, subiri kidogo, kisha "
-         "ibonyeze kwa nguvu."),
+         "ibonyeze kwa nguvu.",
+         "Einen Innenkasten bauen: Die beiden Längsseiten L auf den Boden B stellen, die beiden "
+         "Stirnwände S stehen dazwischen. Die Papierwinkel außen aufkleben, zuerst die 4 "
+         "Bodenkanten, dann die 4 senkrechten Ecken. Winkel einsprühen, kurz ablüften lassen, "
+         "fest andrücken."),
         ("Make all five inner boxes 1 to 5 this way. Each box must be square and a card must "
          "fit in easily. The number of the box is the number on L and B.",
          "Tengeneza masanduku yote matano ya ndani 1 hadi 5 kwa njia hii. Kila sanduku liwe la "
-         "mraba na kadi iingie kwa urahisi. Namba ya sanduku ni namba iliyo kwenye L na B."),
+         "mraba na kadi iingie kwa urahisi. Namba ya sanduku ni namba iliyo kwenye L na B.",
+         "So alle fünf Innenkästen 1 bis 5 bauen. Jeder Kasten muss rechtwinklig sein, und eine "
+         "Karte muss leicht hineinpassen. Die Nummer des Kastens ist die Nummer auf L und B."),
         ("Glue the inner boxes together in a row, 1 to 5. Spray the end walls that touch, "
          "align bottoms and top edges and press.",
          "Gundisha masanduku ya ndani pamoja kwa mstari, 1 hadi 5. Nyunyiza gundi kwenye kuta "
-         "za mwisho zinazogusana, linganisha vitako na kingo za juu, kisha bonyeza."),
+         "za mwisho zinazogusana, linganisha vitako na kingo za juu, kisha bonyeza.",
+         "Die Innenkästen in einer Reihe aneinanderkleben, 1 bis 5. Die Stirnwände einsprühen, "
+         "die sich berühren, Böden und Oberkanten bündig ausrichten und andrücken."),
         ("Outer box, no angles needed: glue the outer bottom U under the row, then the outer "
          "end walls E to both ends, then the outer long walls A over everything. Spray each "
          "part on the whole surface, align the top edges and press well.",
          "Sanduku la nje, halihitaji pembe: gundisha kitako cha nje U chini ya mstari, kisha kuta "
          "za mwisho za nje E pande zote mbili, kisha kuta ndefu za nje A juu ya vyote. Nyunyiza "
-         "kila kipande eneo lote, linganisha kingo za juu na bonyeza vizuri."),
+         "kila kipande eneo lote, linganisha kingo za juu na bonyeza vizuri.",
+         "Außenkasten, ohne Winkel: zuerst den Außenboden U unter die Reihe kleben, dann die "
+         "Außen-Stirnwände E an beide Enden, zuletzt die Außen-Längsseiten A über alles. Jedes "
+         "Teil vollflächig einsprühen, Oberkanten bündig ausrichten und gut andrücken."),
         ("Use spray adhesive only outdoors or with open windows, and cover the table with "
          "newspaper. Let the box dry for a few hours before use.",
          "Tumia gundi ya kunyunyiza nje tu au madirisha yakiwa wazi, na funika meza kwa magazeti. "
-         "Acha sanduku likauke kwa saa chache kabla ya kulitumia."),
+         "Acha sanduku likauke kwa saa chache kabla ya kulitumia.",
+         "Sprühkleber nur im Freien oder bei offenem Fenster verwenden und den Tisch mit Zeitung "
+         "abdecken. Den Kasten vor dem Gebrauch einige Stunden trocknen lassen."),
     ]
 
 
@@ -844,18 +879,32 @@ def wrap(s, n):
     return lines
 
 
-def write_steps(b, items, first, y):
-    for i, (en, sw) in enumerate(items):
+DE_INK = "#6b4a2b"
+INK_T = "#1a1a1a"
+LANG_STYLE = (("", "#1a1a1a"), ("i", "#3d3d3d"), ("", DE_INK))   # en, sw, de
+
+
+def step_lines(item, size=3.5, n=100):
+    return [(ln, st, col) for txt, (st, col) in zip(item, LANG_STYLE) for ln in wrap(txt, n)]
+
+
+def write_steps(b, items, first, y, y_max=282, lh=4.4, gap=3.2):
+    """Schreibt Schritte, solange sie passen. Rückgabe: svg, y, Anzahl geschrieben."""
+    done = 0
+    for i, item in enumerate(items):
+        lines = step_lines(item)
+        if y + len(lines) * lh > y_max:
+            break
         b += ('<circle cx="19" cy="%.2f" r="3.4" fill="%s"/>\n' % (y - 1.3, ACCENT))
         b += text(19, y, str(first + i), 4, "middle", "b", "#fff")
-        for ln in wrap(en, 98):
-            b += text(26, y, ln, 3.6)
-            y += 4.6
-        for ln in wrap(sw, 98):
-            b += text(26, y, ln, 3.6, style="i", fill="#3d3d3d")
-            y += 4.6
-        y += 3.6
-    return b, y
+        for k, (ln, st, col) in enumerate(lines):
+            if k and lines[k - 1][2] != col:
+                y += 0.6
+            b += text(26, y, ln, 3.5, style=st, fill=col)
+            y += lh
+        y += gap
+        done += 1
+    return b, y, done
 
 
 def montage(prof, asm, strips):
@@ -864,53 +913,66 @@ def montage(prof, asm, strips):
     label = lambda k: k[0] if k[0] in "LB" else k
     st = steps()
     pages = []
+    grey, sw_ink = "#555", "#3d3d3d"
+
+    def tri(x, y, en, sw, de, size=3.0, anchor="start", lh=3.5):
+        """Drei Zeilen untereinander: en, sw kursiv, de braun."""
+        out = text(x, y, en, size, anchor, fill=grey)
+        out += text(x, y + lh, sw, size, anchor, "i", grey)
+        out += text(x, y + 2 * lh, de, size, anchor, fill=DE_INK)
+        return out
 
     # Seite 1: fertiger Kasten, Teileliste, Werkzeug
     full = [(None, s, color(k)) for n, k, s in asm]
-    b = text(15, 22, "Learning card box A7 – assembly instructions", 7, style="b")
-    b += text(15, 30, "Sanduku la kadi za kujifunzia A7 – maelekezo ya kuunganisha", 5.2, style="i")
-    b += text(15, 37, "Leitner box, 5 compartments · corrugated cardboard %.1f mm · outside "
-              "%.0f × %.0f × %.0f mm" % (T, L, W, H), 3.6, fill="#444")
-    b += iso_svg(full, 15, 42, 180, 62, labels=False)
-    y = 114
-    b += text(15, y, "Parts per box · Vipande kwa kila sanduku", 4.6, style="b")
-    y += 6
-    b += text(24, y, "part · kipande", 3.0, fill="#555")
-    b += text(128, y, "pcs", 3.0, "end", fill="#555")
-    b += text(160, y, "across flutes", 3.0, "end", fill="#555")
-    b += text(194, y, "along flutes", 3.0, "end", fill="#555")
-    y += 3.5
-    b += text(128, y, "idadi", 3.0, "end", "i", "#555")
-    b += text(160, y, "kuvuka mawimbi", 3.0, "end", "i", "#555")
-    b += text(194, y, "kufuata mawimbi", 3.0, "end", "i", "#555")
-    y += 6
+    b = text(15, 20, "Learning card box A7 – assembly instructions", 7, style="b")
+    b += text(15, 27.5, "Sanduku la kadi za kujifunzia A7 – maelekezo ya kuunganisha", 5.0, style="i")
+    b += text(15, 34, "Lernkasten A7 – Montageanleitung", 5.0, fill=DE_INK)
+    b += text(15, 40.5, "Leitner box, 5 compartments · corrugated cardboard %.1f mm · outside "
+              "%.0f × %.0f × %.0f mm" % (T, L, W, H), 3.4, fill="#444")
+    b += iso_svg(full, 15, 44, 180, 52, labels=False)
+    y = 105
+    b += text_runs(15, y, [("Parts per box · ", "b", INK_T), ("Vipande kwa kila sanduku", "bi", INK_T),
+                           (" · Teile pro Kasten", "b", DE_INK)], 4.4)
+    y += 5.5
+    c_en, c_sw, c_de, c_n, c_q, c_l = 26, 60, 105, 146, 170, 197
+    hs = dict(size=2.7, lh=3.2)
+    b += tri(c_en, y, "part", "kipande", "Teil", **hs)
+    b += tri(c_n, y, "pcs", "idadi", "Stück", anchor="end", **hs)
+    b += tri(c_q, y, "across flutes", "kuvuka mawimbi", "quer zur Welle", anchor="end", **hs)
+    b += tri(c_l, y, "along flutes", "kufuata mawimbi", "längs der Welle", anchor="end", **hs)
+    y += 12.5
     for k, (face, cnt, de, en, sw) in prof.items():
         bb = face.BoundBox
-        b += text(17, y, k, 3.5, style="b", fill=ACCENT)
-        b += text(26, y, en, 3.5)
-        b += text(74, y, sw, 3.5, style="i", fill="#3d3d3d")
-        b += text(128, y, "%d" % cnt, 3.5, "end")
-        b += text(160, y, "%.0f mm" % bb.XLength, 3.5, "end")
-        b += text(194, y, "%.0f mm" % bb.YLength, 3.5, "end")
-        y += 5.0
+        b += text(17, y, k, 3.3, style="b", fill=ACCENT)
+        b += text(c_en, y, en, 3.3)
+        b += text(c_sw, y, sw, 3.3, style="i", fill=sw_ink)
+        b += text(c_de, y, de, 3.3, fill=DE_INK)
+        b += text(c_n, y, "%d" % cnt, 3.3, "end")
+        b += text(c_q, y, "%.0f mm" % bb.XLength, 3.3, "end")
+        b += text(c_l, y, "%.0f mm" % bb.YLength, 3.3, "end")
+        y += 4.5
     rows, n_ang, n_strips, per_sheet, sheets = strips
     y += 2
-    b += text(17, y, "K", 3.5, style="b", fill=ACCENT)
-    b += text(26, y, "paper angles, strip %.0f mm wide · pembe za karatasi, upana mm %.0f"
-              % (2 * ANGLE_LEG, 2 * ANGLE_LEG), 3.5)
-    y += 5.0
+    b += text(17, y, "K", 3.3, style="b", fill=ACCENT)
+    b += text_runs(c_en, y, [("paper angles, strip %.0f mm wide · " % (2 * ANGLE_LEG), "", INK_T),
+                             ("pembe za karatasi, upana mm %.0f" % (2 * ANGLE_LEG), "i", INK_T),
+                             (" · Papierwinkel, Streifen %.0f mm" % (2 * ANGLE_LEG), "", DE_INK)],
+                   3.3)
+    y += 4.5
     for i, lb in enumerate(LBOX):
-        b += text(26, y, "box · sanduku %d:  4 × %.0f,  2 × %.0f,  2 × %.0f mm"
-                  % (i + 1, H - T, lb, WB), 3.4, fill="#333")
-        y += 4.6
+        b += text(c_en, y, "box · sanduku · Kasten %d:  4 × %.0f,  2 × %.0f,  2 × %.0f mm"
+                  % (i + 1, H - T, lb, WB), 3.2, fill="#333")
+        y += 4.2
     y += 5
-    b += text(15, y, "Tools and material · Vifaa", 4.6, style="b")
-    y += 6.5
-    for en, sw in TOOLS:
-        b += text(15, y, "· " + en, 3.4)
-        b += text(100, y, sw, 3.4, style="i", fill="#3d3d3d")
-        y += 4.8
-    if y > 282:
+    b += text_runs(15, y, [("Tools and material · ", "b", INK_T), ("Vifaa", "bi", INK_T),
+                           (" · Werkzeug und Material", "b", DE_INK)], 4.4)
+    y += 6
+    for en, sw, de in TOOLS:
+        b += text(15, y, "· " + en, 3.3)
+        b += text(108, y, sw, 3.3, style="i", fill=sw_ink)
+        b += text(17.6, y + 3.9, de, 3.3, fill=DE_INK)
+        y += 9.0
+    if y > 285:
         log("  WARNUNG: Montageseite 1 läuft über (y = %.0f)" % y)
     b += text(15, 290, "NgarumaVTC · Lernkasten A7, Wellpappe", 3.0, fill="#666")
     pages.append(b)
@@ -934,19 +996,18 @@ def montage(prof, asm, strips):
                 s2 = s.copy()
                 s2.translate(V(i * 18, 0, 0))
                 row.append((None, s2, color(k)))
-    b = text(15, 18, "Steps · Hatua", 6, style="b")
-    b += iso_svg(ex, 15, 24, 58, 50)
-    b += iso_svg(withang, 78, 24, 52, 50, labels=False)
-    b += iso_svg(row, 135, 24, 62, 50, labels=False)
-    b += text(44, 80, "parts of one inner box", 3.0, "middle", "i", "#555")
-    b += text(104, 80, "paper angles outside", 3.0, "middle", "i", "#555")
-    b += text(166, 80, "five boxes in a row", 3.0, "middle", "i", "#555")
-    b += text(44, 84, "vipande vya sanduku moja", 3.0, "middle", "i", "#555")
-    b += text(104, 84, "pembe za karatasi kwa nje", 3.0, "middle", "i", "#555")
-    b += text(166, 84, "masanduku matano kwa mstari", 3.0, "middle", "i", "#555")
-    b, y = write_steps(b, st[:5], 1, 96)
-    if y > 282:
-        log("  WARNUNG: Montageseite 2 läuft über (y = %.0f)" % y)
+    b = text_runs(15, 18, [("Steps · ", "b", INK_T), ("Hatua", "bi", INK_T),
+                           (" · Arbeitsschritte", "b", DE_INK)], 6)
+    b += iso_svg(ex, 15, 24, 58, 46)
+    b += iso_svg(withang, 78, 24, 52, 46, labels=False)
+    b += iso_svg(row, 135, 24, 62, 46, labels=False)
+    b += tri(44, 76, "parts of one inner box", "vipande vya sanduku moja",
+             "Teile eines Innenkastens", anchor="middle")
+    b += tri(104, 76, "paper angles outside", "pembe za karatasi kwa nje",
+             "Papierwinkel außen", anchor="middle")
+    b += tri(166, 76, "five boxes in a row", "masanduku matano kwa mstari",
+             "fünf Kästen in einer Reihe", anchor="middle")
+    b, y, n2 = write_steps(b, st, 1, 96)
     pages.append(b)
 
     # Seite 3: Außenkasten
@@ -961,23 +1022,34 @@ def montage(prof, asm, strips):
             ex.append((k, s2, color(k)))
         else:
             ex.append((None, s2, color(k)))
-    b = iso_svg(ex, 15, 14, 180, 90)
-    b += text(105, 110, "outer box: no angles, glue on the whole surface · "
-              "sanduku la nje: bila pembe, gundi eneo lote", 3.0, "middle", "i", "#555")
-    b, y = write_steps(b, st[5:], 6, 124)
+    b = iso_svg(ex, 15, 14, 180, 84)
+    b += tri(105, 103, "outer box: no angles, glue on the whole surface",
+             "sanduku la nje: bila pembe, gundi eneo lote",
+             "Außenkasten: ohne Winkel, vollflächig kleben", anchor="middle")
+    rest, first, y = st[n2:], n2 + 1, 120
+    while rest:
+        b, y, n = write_steps(b, rest, first, y)
+        if n == 0:
+            raise RuntimeError("Montageschritt %d passt auf keine Seite" % first)
+        rest, first = rest[n:], first + n
+        if rest:
+            pages.append(b)
+            b, y = "", 20
     b += text(15, 287, "Kiswahili text: please have it checked locally · Tafadhali kagueni "
               "maandishi ya Kiswahili.", 3.0, fill="#666")
-    if y > 282:
-        log("  WARNUNG: Montageseite 3 läuft über (y = %.0f)" % y)
     pages.append(b)
 
     svgs = []
+    for f in os.listdir(OUT):
+        if f.startswith("montage-") and f.endswith(".svg"):
+            os.remove(os.path.join(OUT, f))
     for i, b in enumerate(pages):
         p = os.path.join(OUT, "montage-%d.svg" % (i + 1))
         with open(p, "w", encoding="utf-8") as fh:
             fh.write(svg_doc(210, 297, b))
         svgs.append(p)
     svgs_to_pdf(svgs, os.path.join(OUT, "montage.pdf"))
+    log("  montage.pdf: %d Seiten, Schritte 1–%d auf Seite 2" % (len(pages), n2))
 
 
 # ═════════════════════════════════════════════════════════════════════

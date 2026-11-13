@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210" font-family="'Latin Modern Roman', 'CMU Serif', serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12.00" y="14.00" font-size="5.40" text-anchor="start" xml:space="preserve"><tspan fill="#1a1a1a" font-weight="bold">Top view and hole plan · </tspan><tspan fill="#1a1a1a" font-style="italic" font-weight="bold">Mwonekano wa juu na mpango wa matundu</tspan><tspan fill="#6b4a2b" font-weight="bold"> · Draufsicht und Lochplan</tspan></text>
+<text x="285.00" y="204.00" font-size="2.80" text-anchor="end" fill="#666">2 / 6</text>
+<path d="M12.000,17.000 L285.000,17.000" stroke="#999" stroke-width="0.2" fill="none"/>
+<text x="12.00" y="204.00" font-size="2.80" text-anchor="start" fill="#666">NgarumaVTC · Schneidlade für den Lernkasten A7 · Karton t = 4 mm</text>
+<rect x="22.000" y="28.000" width="204.240" height="75.600" fill="#e8cfa4" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="30.400" y="86.200" width="176.040" height="3.600" fill="#f0e2bf" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="23.200" y="89.506" width="201.840" height="7.200" fill="#b07d48" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="22.000" y="96.706" width="7.200" height="2.400" fill="#d9b382" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="22.000" y="87.106" width="7.200" height="2.400" fill="#d9b382" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="207.040" y="96.706" width="4.800" height="4.800" fill="#d9b382" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="207.040" y="84.706" width="4.800" height="4.800" fill="#d9b382" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="46.000" y="28.600" width="3.600" height="57.600" fill="#d9b382" stroke="#3b2a1a" stroke-width="0.25"/>
+<rect x="29.800" y="86.770" width="13.200" height="11.412" fill="#d9b382" stroke="#3b2a1a" stroke-width="0.25" stroke-dasharray="1,0.6"/>
+<rect x="49.600" y="69.160" width="144.000" height="4.800" fill="none" stroke="#3b2a1a" stroke-width="0.3" stroke-dasharray="2,1"/>
+<path d="M30.400,88.000 L206.440,88.000" stroke="#c0392b" stroke-width="0.35" fill="none" stroke-dasharray="4,1,1,1"/>
+<circle cx="56.80" cy="78.52" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="186.40" cy="78.52" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="56.80" y="77.12" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">33</text>
+<text x="186.40" y="77.12" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">33</text>
+<circle cx="60.88" cy="77.44" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="182.32" cy="77.44" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="60.88" y="80.64" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">42</text>
+<text x="182.32" y="80.64" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">42</text>
+<circle cx="64.96" cy="76.72" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="178.24" cy="76.72" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="64.96" y="75.32" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">48</text>
+<text x="178.24" y="75.32" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">48</text>
+<circle cx="69.04" cy="76.48" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="174.16" cy="76.48" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="69.04" y="79.68" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">50</text>
+<text x="174.16" y="79.68" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">50</text>
+<circle cx="73.12" cy="74.32" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="170.08" cy="74.32" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="73.12" y="72.92" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">68</text>
+<text x="170.08" y="72.92" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">68</text>
+<circle cx="77.20" cy="70.72" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="166.00" cy="70.72" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="77.20" y="73.92" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">98</text>
+<text x="166.00" y="73.92" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">98</text>
+<circle cx="81.28" cy="69.40" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="161.92" cy="69.40" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="81.28" y="68.00" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">109</text>
+<text x="161.92" y="68.00" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">109</text>
+<circle cx="85.36" cy="68.44" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="157.84" cy="68.44" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="85.36" y="71.64" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">117</text>
+<text x="157.84" y="71.64" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">117</text>
+<circle cx="89.44" cy="65.32" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="153.76" cy="65.32" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="89.44" y="63.92" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">143</text>
+<text x="153.76" y="63.92" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">143</text>
+<circle cx="93.52" cy="35.68" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="149.68" cy="35.68" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="93.52" y="38.88" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">390</text>
+<text x="149.68" y="38.88" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">390</text>
+<circle cx="97.60" cy="34.72" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<circle cx="145.60" cy="34.72" r="0.72" fill="#fff" stroke="#3b2a1a" stroke-width="0.2"/>
+<text x="97.60" y="33.32" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">398</text>
+<text x="145.60" y="33.32" font-size="2.10" text-anchor="middle" fill="#7a3e12" font-weight="bold">398</text>
+<path d="M22.000,102.800 L22.000,95.400" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M226.240,102.800 L226.240,95.400" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M22.000,96.600 L226.240,96.600" stroke="#7a3e12" stroke-width="0.15" fill="none"/>
+<path d="M23.504,96.053 L22.000,96.600 L23.504,97.147 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<path d="M224.736,97.147 L226.240,96.600 L224.736,96.053 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<text x="124.12" y="95.60" font-size="2.60" text-anchor="middle" fill="#7a3e12" transform="rotate(0.0 124.12 95.60)">1702</text>
+<path d="M225.440,103.600 L219.040,103.600" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M225.440,28.000 L219.040,28.000" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M220.240,103.600 L220.240,28.000" stroke="#7a3e12" stroke-width="0.15" fill="none"/>
+<path d="M219.693,102.096 L220.240,103.600 L220.787,102.096 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<path d="M220.787,29.504 L220.240,28.000 L219.693,29.504 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<text x="219.24" y="65.80" font-size="2.60" text-anchor="middle" fill="#7a3e12" transform="rotate(-90.0 219.24 65.80)">630</text>
+<path d="M22.000,28.800 L22.000,34.200" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M49.600,28.800 L49.600,34.200" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M22.000,33.000 L49.600,33.000" stroke="#7a3e12" stroke-width="0.15" fill="none"/>
+<path d="M23.504,32.453 L22.000,33.000 L23.504,33.547 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<path d="M48.096,33.547 L49.600,33.000 L48.096,32.453 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<text x="35.80" y="32.00" font-size="2.60" text-anchor="middle" fill="#7a3e12" transform="rotate(0.0 35.80 32.00)">230</text>
+<path d="M49.600,28.800 L49.600,34.200" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M207.040,28.800 L207.040,34.200" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M49.600,33.000 L207.040,33.000" stroke="#7a3e12" stroke-width="0.15" fill="none"/>
+<path d="M51.104,32.453 L49.600,33.000 L51.104,33.547 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<path d="M205.536,33.547 L207.040,33.000 L205.536,32.453 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<text x="128.32" y="32.00" font-size="2.60" text-anchor="middle" fill="#7a3e12" transform="rotate(0.0 128.32 32.00)">1312</text>
+<path d="M22.800,88.000 L29.200,88.000" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M22.800,103.600 L29.200,103.600" stroke="#7a3e12" stroke-width="0.12" fill="none"/>
+<path d="M28.000,88.000 L28.000,103.600" stroke="#7a3e12" stroke-width="0.15" fill="none"/>
+<path d="M28.547,89.504 L28.000,88.000 L27.453,89.504 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<path d="M27.453,102.096 L28.000,103.600 L28.547,102.096 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<text x="29.00" y="95.80" font-size="2.60" text-anchor="middle" fill="#7a3e12" transform="rotate(90.0 29.00 95.80)">130</text>
+<path d="M25.600,99.706 L49.600,99.706" stroke="#7a3e12" stroke-width="0.15" fill="none"/>
+<path d="M27.104,99.159 L25.600,99.706 L27.104,100.253 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<path d="M48.096,100.253 L49.600,99.706 L48.096,99.159 Z" stroke="#7a3e12" stroke-width="0.2" fill="#7a3e12"/>
+<text x="37.60" y="98.71" font-size="2.60" text-anchor="middle" fill="#7a3e12" transform="rotate(0.0 37.60 98.71)">200</text>
+<text x="12.00" y="115.60" font-size="2.80" text-anchor="start" fill="#1a1a1a">x = 0: face of the side stop S. y = 0: cut line (blade). All holes Ø 12 mm, drilled through G, square to the face. Fence A</text>
+<text x="12.00" y="119.00" font-size="2.80" text-anchor="start" fill="#1a1a1a">shown dashed at 117 mm.</text>
+<text x="12.00" y="122.40" font-size="2.80" text-anchor="start" fill="#3d3d3d" font-style="italic">x = 0: uso wa kizuizi S. y = 0: mstari wa kukata (kiwembe). Matundu yote Ø 12 mm, yatobolewe G hadi chini, wima. Kizuizi A</text>
+<text x="12.00" y="125.80" font-size="2.80" text-anchor="start" fill="#3d3d3d" font-style="italic">kimechorwa kwa mistari kwenye mm 117.</text>
+<text x="12.00" y="129.20" font-size="2.80" text-anchor="start" fill="#6b4a2b">x = 0: Anlagefläche Seitenanschlag S. y = 0: Schnittlinie (Klinge). Alle Löcher Ø 12 mm durch G, senkrecht. Anschlagleiste A</text>
+<text x="12.00" y="132.60" font-size="2.80" text-anchor="start" fill="#6b4a2b">gestrichelt in Stellung 117 mm.</text>
+<text x="238.00" y="26.00" font-size="3.00" text-anchor="start" fill="#1a1a1a" font-weight="bold">holes · matundu · Löcher</text>
+<text x="238.00" y="30.50" font-size="2.60" text-anchor="start" fill="#555">size</text>
+<text x="255.00" y="30.50" font-size="2.60" text-anchor="end" fill="#555">y</text>
+<text x="267.00" y="30.50" font-size="2.60" text-anchor="end" fill="#555">x1</text>
+<text x="280.00" y="30.50" font-size="2.60" text-anchor="end" fill="#555">x2</text>
+<text x="284.00" y="30.50" font-size="2.60" text-anchor="start" fill="#555">parts</text>
+<text x="238.00" y="34.30" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">33</text>
+<text x="255.00" y="34.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">79</text>
+<text x="267.00" y="34.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">60</text>
+<text x="280.00" y="34.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">1140</text>
+<text x="284.00" y="34.30" font-size="2.40" text-anchor="start" fill="#444">B1, L1</text>
+<text x="238.00" y="37.90" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">42</text>
+<text x="255.00" y="37.90" font-size="2.80" text-anchor="end" fill="#1a1a1a">88</text>
+<text x="267.00" y="37.90" font-size="2.80" text-anchor="end" fill="#1a1a1a">94</text>
+<text x="280.00" y="37.90" font-size="2.80" text-anchor="end" fill="#1a1a1a">1106</text>
+<text x="284.00" y="37.90" font-size="2.40" text-anchor="start" fill="#444">strip</text>
+<text x="238.00" y="41.50" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">48</text>
+<text x="255.00" y="41.50" font-size="2.80" text-anchor="end" fill="#1a1a1a">94</text>
+<text x="267.00" y="41.50" font-size="2.80" text-anchor="end" fill="#1a1a1a">128</text>
+<text x="280.00" y="41.50" font-size="2.80" text-anchor="end" fill="#1a1a1a">1072</text>
+<text x="284.00" y="41.50" font-size="2.40" text-anchor="start" fill="#444">B2, L2</text>
+<text x="238.00" y="45.10" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">50</text>
+<text x="255.00" y="45.10" font-size="2.80" text-anchor="end" fill="#1a1a1a">96</text>
+<text x="267.00" y="45.10" font-size="2.80" text-anchor="end" fill="#1a1a1a">162</text>
+<text x="280.00" y="45.10" font-size="2.80" text-anchor="end" fill="#1a1a1a">1038</text>
+<text x="284.00" y="45.10" font-size="2.40" text-anchor="start" fill="#444">strip</text>
+<text x="238.00" y="48.70" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">68</text>
+<text x="255.00" y="48.70" font-size="2.80" text-anchor="end" fill="#1a1a1a">114</text>
+<text x="267.00" y="48.70" font-size="2.80" text-anchor="end" fill="#1a1a1a">196</text>
+<text x="280.00" y="48.70" font-size="2.80" text-anchor="end" fill="#1a1a1a">1004</text>
+<text x="284.00" y="48.70" font-size="2.40" text-anchor="start" fill="#444">B3, L3</text>
+<text x="238.00" y="52.30" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">98</text>
+<text x="255.00" y="52.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">144</text>
+<text x="267.00" y="52.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">230</text>
+<text x="280.00" y="52.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">970</text>
+<text x="284.00" y="52.30" font-size="2.40" text-anchor="start" fill="#444">B4, L4</text>
+<text x="238.00" y="55.90" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">109</text>
+<text x="255.00" y="55.90" font-size="2.80" text-anchor="end" fill="#1a1a1a">155</text>
+<text x="267.00" y="55.90" font-size="2.80" text-anchor="end" fill="#1a1a1a">264</text>
+<text x="280.00" y="55.90" font-size="2.80" text-anchor="end" fill="#1a1a1a">936</text>
+<text x="284.00" y="55.90" font-size="2.40" text-anchor="start" fill="#444">S</text>
+<text x="238.00" y="59.50" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">117</text>
+<text x="255.00" y="59.50" font-size="2.80" text-anchor="end" fill="#1a1a1a">163</text>
+<text x="267.00" y="59.50" font-size="2.80" text-anchor="end" fill="#1a1a1a">298</text>
+<text x="280.00" y="59.50" font-size="2.80" text-anchor="end" fill="#1a1a1a">902</text>
+<text x="284.00" y="59.50" font-size="2.40" text-anchor="start" fill="#444">strip, E</text>
+<text x="238.00" y="63.10" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">143</text>
+<text x="255.00" y="63.10" font-size="2.80" text-anchor="end" fill="#1a1a1a">189</text>
+<text x="267.00" y="63.10" font-size="2.80" text-anchor="end" fill="#1a1a1a">332</text>
+<text x="280.00" y="63.10" font-size="2.80" text-anchor="end" fill="#1a1a1a">868</text>
+<text x="284.00" y="63.10" font-size="2.40" text-anchor="start" fill="#444">B5, L5</text>
+<text x="238.00" y="66.70" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">390</text>
+<text x="255.00" y="66.70" font-size="2.80" text-anchor="end" fill="#1a1a1a">436</text>
+<text x="267.00" y="66.70" font-size="2.80" text-anchor="end" fill="#1a1a1a">366</text>
+<text x="280.00" y="66.70" font-size="2.80" text-anchor="end" fill="#1a1a1a">834</text>
+<text x="284.00" y="66.70" font-size="2.40" text-anchor="start" fill="#444">U</text>
+<text x="238.00" y="70.30" font-size="2.80" text-anchor="start" fill="#7a3e12" font-weight="bold">398</text>
+<text x="255.00" y="70.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">444</text>
+<text x="267.00" y="70.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">400</text>
+<text x="280.00" y="70.30" font-size="2.80" text-anchor="end" fill="#1a1a1a">800</text>
+<text x="284.00" y="70.30" font-size="2.40" text-anchor="start" fill="#444">A</text>
+<text x="238.00" y="75.90" font-size="2.50" text-anchor="start" fill="#1a1a1a">y = size + 40 (fence) + 6 (half peg).</text>
+<text x="238.00" y="78.90" font-size="2.50" text-anchor="start" fill="#1a1a1a">Write the size next to each hole with</text>
+<text x="238.00" y="81.90" font-size="2.50" text-anchor="start" fill="#1a1a1a">a marker.</text>
+<text x="238.00" y="84.90" font-size="2.50" text-anchor="start" fill="#3d3d3d" font-style="italic">y = kipimo + 40 + 6. Andika kipimo</text>
+<text x="238.00" y="87.90" font-size="2.50" text-anchor="start" fill="#3d3d3d" font-style="italic">karibu na kila tundu.</text>
+<text x="238.00" y="90.90" font-size="2.50" text-anchor="start" fill="#6b4a2b">y = Maß + 40 + 6. Maß mit Filzstift</text>
+<text x="238.00" y="93.90" font-size="2.50" text-anchor="start" fill="#6b4a2b">neben jedes Loch schreiben.</text>
+</svg>

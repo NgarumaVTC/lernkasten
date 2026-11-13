@@ -1,204 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" font-family="'Latin Modern Roman', 'CMU Serif', serif">
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="15.00" y="18.00" font-size="6.00" text-anchor="start" fill="#1a1a1a" font-weight="bold">Steps · Hatua</text>
-<path d="M69.623,57.348 L69.623,46.467 L55.584,28.855 L55.584,39.736 L69.623,57.348 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M55.584,28.855 L69.623,46.467 L70.768,46.176 L56.729,28.565 L55.584,28.855 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M69.623,57.348 L70.768,57.057 L70.768,46.176 L69.623,46.467 L69.623,57.348 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M22.098,40.471 L41.560,35.527 L41.560,24.646 L22.098,29.591 L22.098,40.471 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M22.098,40.471 L22.098,29.591 L21.583,28.944 L21.583,39.825 L22.098,40.471 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M21.583,28.944 L22.098,29.591 L41.560,24.646 L41.045,24.000 L21.583,28.944 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M26.734,54.059 L41.803,72.964 L61.266,68.020 L46.197,49.115 L26.734,54.059 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M41.803,74.000 L41.803,72.964 L26.734,54.059 L26.734,55.096 L41.803,74.000 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M41.803,74.000 L61.266,69.056 L61.266,68.020 L41.803,72.964 L41.803,74.000 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M46.955,71.655 L66.417,66.711 L66.417,55.830 L46.955,60.775 L46.955,71.655 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M46.955,71.655 L46.955,60.775 L46.440,60.128 L46.440,71.009 L46.955,71.655 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M46.440,60.128 L46.955,60.775 L66.417,55.830 L65.902,55.184 L46.440,60.128 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M31.271,67.091 L31.271,56.210 L17.232,38.598 L17.232,49.479 L31.271,67.091 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M17.232,38.598 L31.271,56.210 L32.416,55.919 L18.377,38.307 L17.232,38.598 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M31.271,67.091 L32.416,66.800 L32.416,55.919 L31.271,56.210 L31.271,67.091 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<circle cx="44.00" cy="61.56" r="3.2" fill="#ffffff" stroke="#7a3e12" stroke-width="0.4"/>
-<text x="44.00" y="62.86" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">B</text>
-<circle cx="56.43" cy="63.42" r="3.2" fill="#ffffff" stroke="#7a3e12" stroke-width="0.4"/>
-<text x="56.43" y="64.72" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">L</text>
-<circle cx="24.82" cy="52.70" r="3.2" fill="#ffffff" stroke="#7a3e12" stroke-width="0.4"/>
-<text x="24.82" y="54.00" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">S</text>
-<path d="M109.731,44.042 L109.731,27.499 L107.049,24.135 L107.049,40.677 L109.731,44.042 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M109.731,44.042 L109.970,43.981 L109.970,27.439 L109.731,27.499 L109.731,44.042 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M107.049,24.135 L109.731,27.499 L109.970,27.439 L107.288,24.074 L107.049,24.135 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M127.968,66.921 L127.968,61.526 L107.049,35.283 L107.049,40.677 L127.968,66.921 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M107.049,35.283 L127.968,61.526 L128.207,61.466 L107.288,35.222 L107.049,35.283 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M127.968,66.921 L128.207,66.860 L128.207,61.466 L127.968,61.526 L127.968,66.921 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M127.968,66.921 L127.968,50.378 L125.286,47.013 L125.286,63.556 L127.968,66.921 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M127.968,66.921 L128.207,66.860 L128.207,50.317 L127.968,50.378 L127.968,66.921 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M125.286,47.013 L127.968,50.378 L128.207,50.317 L125.525,46.953 L125.286,47.013 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M101.090,42.192 L107.049,40.677 L107.049,24.135 L101.090,25.649 L101.090,42.192 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M101.090,42.192 L101.090,25.649 L100.982,25.514 L100.982,42.057 L101.090,42.192 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.982,25.514 L101.090,25.649 L107.049,24.135 L106.942,24.000 L100.982,25.514 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,47.541 L107.049,40.677 L107.049,35.283 L80.032,42.147 L80.032,47.541 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M79.924,42.012 L80.032,42.147 L107.049,35.283 L106.942,35.148 L79.924,42.012 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,47.541 L80.032,42.147 L79.924,42.012 L79.924,47.406 L80.032,47.541 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M101.090,42.192 L122.009,68.435 L127.968,66.921 L107.049,40.677 L101.090,42.192 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M122.009,68.650 L122.009,68.435 L101.090,42.192 L101.090,42.407 L122.009,68.650 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M122.009,68.650 L127.968,67.136 L127.968,66.921 L122.009,68.435 L122.009,68.650 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,47.541 L82.714,50.906 L109.731,44.042 L107.049,40.677 L80.032,47.541 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M82.714,51.121 L109.731,44.258 L109.731,44.042 L82.714,50.906 L82.714,51.121 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M82.714,51.121 L82.714,50.906 L80.032,47.541 L80.032,47.757 L82.714,51.121 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.747,47.000 L107.765,40.136 L107.765,25.032 L80.747,31.895 L80.747,47.000 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.747,47.000 L80.747,31.895 L80.032,30.998 L80.032,46.103 L80.747,47.000 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,30.998 L80.747,31.895 L107.765,25.032 L107.049,24.135 L80.032,30.998 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,47.541 L85.991,46.027 L85.991,29.484 L80.032,30.998 L80.032,47.541 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,47.541 L80.032,30.998 L79.924,30.864 L79.924,47.406 L80.032,47.541 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M79.924,30.864 L80.032,30.998 L85.991,29.484 L85.884,29.350 L79.924,30.864 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M98.269,70.420 L100.951,73.784 L127.968,66.921 L125.286,63.556 L98.269,70.420 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,74.000 L127.968,67.136 L127.968,66.921 L100.951,73.784 L100.951,74.000 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,74.000 L100.951,73.784 L98.269,70.420 L98.269,70.635 L100.951,74.000 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M82.475,50.966 L82.475,34.423 L79.793,31.059 L79.793,47.602 L82.475,50.966 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M82.475,50.966 L82.714,50.906 L82.714,34.363 L82.475,34.423 L82.475,50.966 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M79.793,31.059 L82.475,34.423 L82.714,34.363 L80.032,30.998 L79.793,31.059 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,46.103 L100.951,72.346 L127.968,65.482 L107.049,39.239 L80.032,46.103 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,73.784 L100.951,72.346 L80.032,46.103 L80.032,47.541 L100.951,73.784 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,73.784 L127.968,66.921 L127.968,65.482 L100.951,72.346 L100.951,73.784 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M125.664,64.989 L125.664,49.884 L106.175,25.436 L106.175,40.540 L125.664,64.989 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M106.175,25.436 L125.664,49.884 L127.253,49.481 L107.765,25.032 L106.175,25.436 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M125.664,64.989 L127.253,64.585 L127.253,49.481 L125.664,49.884 L125.664,64.989 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.032,47.541 L100.951,73.784 L106.910,72.270 L85.991,46.027 L80.032,47.541 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,74.000 L100.951,73.784 L80.032,47.541 L80.032,47.757 L100.951,74.000 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,74.000 L106.910,72.486 L106.910,72.270 L100.951,73.784 L100.951,74.000 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.712,73.845 L100.712,68.450 L79.793,42.207 L79.793,47.602 L100.712,73.845 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M79.793,42.207 L100.712,68.450 L100.951,68.390 L80.032,42.147 L79.793,42.207 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.712,73.845 L100.951,73.784 L100.951,68.390 L100.712,68.450 L100.712,73.845 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.235,71.449 L100.235,56.344 L80.747,31.895 L80.747,47.000 L100.235,71.449 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M80.747,31.895 L100.235,56.344 L101.825,55.940 L82.336,31.492 L80.747,31.895 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.235,71.449 L101.825,71.045 L101.825,55.940 L100.235,56.344 L100.235,71.449 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,72.346 L127.968,65.482 L127.968,50.378 L100.951,57.241 L100.951,72.346 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,72.346 L100.951,57.241 L100.235,56.344 L100.235,71.449 L100.951,72.346 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.235,56.344 L100.951,57.241 L127.968,50.378 L127.253,49.481 L100.235,56.344 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M122.116,68.569 L128.076,67.055 L128.076,50.512 L122.116,52.026 L122.116,68.569 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M122.116,68.569 L122.116,52.026 L122.009,51.892 L122.009,68.435 L122.116,68.569 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M122.009,51.892 L122.116,52.026 L128.076,50.512 L127.968,50.378 L122.009,51.892 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M101.058,73.919 L128.076,67.055 L128.076,61.661 L101.058,68.524 L101.058,73.919 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,68.390 L101.058,68.524 L128.076,61.661 L127.968,61.526 L100.951,68.390 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M101.058,73.919 L101.058,68.524 L100.951,68.390 L100.951,73.784 L101.058,73.919 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M101.058,73.919 L107.018,72.405 L107.018,55.862 L101.058,57.376 L101.058,73.919 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M101.058,73.919 L101.058,57.376 L100.951,57.241 L100.951,73.784 L101.058,73.919 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.951,57.241 L101.058,57.376 L107.018,55.862 L106.910,55.727 L100.951,57.241 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.712,73.845 L100.712,57.302 L98.030,53.937 L98.030,70.480 L100.712,73.845 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M100.712,73.845 L100.951,73.784 L100.951,57.241 L100.712,57.302 L100.712,73.845 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M98.030,53.937 L100.712,57.302 L100.951,57.241 L98.269,53.877 L98.030,53.937 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M173.430,44.400 L179.773,52.357 L197.000,47.981 L190.657,40.024 L173.430,44.400 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M179.773,52.793 L179.773,52.357 L173.430,44.400 L173.430,44.836 L179.773,52.793 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M179.773,52.793 L197.000,48.417 L197.000,47.981 L179.773,52.357 L179.773,52.793 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M173.647,44.672 L190.874,40.296 L190.874,35.716 L173.647,40.092 L173.647,44.672 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M173.430,39.820 L173.647,40.092 L190.874,35.716 L190.657,35.444 L173.430,39.820 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M173.647,44.672 L173.647,40.092 L173.430,39.820 L173.430,44.400 L173.647,44.672 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M196.301,47.831 L196.301,43.251 L190.392,35.838 L190.392,40.418 L196.301,47.831 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M190.392,35.838 L196.301,43.251 L196.783,43.129 L190.874,35.716 L190.392,35.838 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M196.301,47.831 L196.783,47.709 L196.783,43.129 L196.301,43.251 L196.301,47.831 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M179.556,52.085 L179.556,47.505 L173.647,40.092 L173.647,44.672 L179.556,52.085 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M173.647,40.092 L179.556,47.505 L180.038,47.383 L174.129,39.970 L173.647,40.092 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M179.556,52.085 L180.038,51.963 L180.038,47.383 L179.556,47.505 L179.556,52.085 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M179.773,52.357 L197.000,47.981 L197.000,43.401 L179.773,47.777 L179.773,52.357 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M179.556,47.505 L179.773,47.777 L197.000,43.401 L196.783,43.129 L179.556,47.505 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M179.773,52.357 L179.773,47.777 L179.556,47.505 L179.556,52.085 L179.773,52.357 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M159.455,47.950 L165.798,55.907 L177.604,52.908 L171.262,44.951 L159.455,47.950 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M165.798,56.343 L165.798,55.907 L159.455,47.950 L159.455,48.386 L165.798,56.343 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M165.798,56.343 L177.604,53.344 L177.604,53.017 L177.604,52.908 L165.798,55.907 L165.798,56.343 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M159.672,48.222 L171.478,45.223 L171.478,41.788 L171.478,40.643 L159.672,43.642 L159.672,48.222 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M159.455,43.370 L159.672,43.642 L171.478,40.643 L171.262,40.371 L159.455,43.370 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M159.672,48.222 L159.672,43.642 L159.455,43.370 L159.455,47.950 L159.672,48.222 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M176.906,52.758 L176.906,48.179 L170.997,40.766 L170.997,45.345 L176.906,52.758 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M170.997,40.766 L176.906,48.179 L177.387,48.056 L171.478,40.643 L170.997,40.766 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M176.906,52.758 L177.387,52.636 L177.387,48.056 L176.906,48.179 L176.906,52.758 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M165.581,55.635 L165.581,51.055 L159.672,43.642 L159.672,48.222 L165.581,55.635 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M159.672,43.642 L165.581,51.055 L166.063,50.933 L160.154,43.520 L159.672,43.642 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M165.581,55.635 L166.063,55.513 L166.063,50.933 L165.581,51.055 L165.581,55.635 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M165.798,55.907 L177.604,52.908 L177.604,49.473 L177.604,48.328 L165.798,51.328 L165.798,55.907 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M165.581,51.055 L165.798,51.328 L177.604,48.328 L177.387,48.056 L165.581,51.055 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M165.798,55.907 L165.798,51.328 L165.581,51.055 L165.581,55.635 L165.798,55.907 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M149.095,50.582 L155.438,58.539 L163.630,56.458 L157.287,48.501 L149.095,50.582 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M155.438,58.975 L155.438,58.539 L149.095,50.582 L149.095,51.018 L155.438,58.975 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M155.438,58.975 L163.630,56.894 L163.630,56.458 L155.438,58.539 L155.438,58.975 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M149.312,50.854 L157.504,48.773 L157.504,44.193 L149.312,46.274 L149.312,50.854 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M149.312,50.854 L149.312,46.274 L149.095,46.002 L149.095,50.582 L149.312,50.854 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M149.095,46.002 L149.312,46.274 L157.504,44.193 L157.287,43.921 L149.095,46.002 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M162.931,56.309 L162.931,51.729 L157.022,44.316 L157.022,48.895 L162.931,56.309 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M157.022,44.316 L162.931,51.729 L163.413,51.606 L157.504,44.193 L157.022,44.316 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M162.931,56.309 L163.413,56.186 L163.413,51.606 L162.931,51.729 L162.931,56.309 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M155.221,58.267 L155.221,53.687 L149.312,46.274 L149.312,50.854 L155.221,58.267 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M149.312,46.274 L155.221,53.687 L155.703,53.565 L149.794,46.152 L149.312,46.274 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M155.221,58.267 L155.703,58.145 L155.703,53.565 L155.221,53.687 L155.221,58.267 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M155.438,58.539 L163.630,56.458 L163.630,51.878 L155.438,53.959 L155.438,58.539 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M155.438,58.539 L155.438,53.959 L155.221,53.687 L155.221,58.267 L155.438,58.539 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M155.221,53.687 L155.438,53.959 L163.630,51.878 L163.413,51.606 L155.221,53.687 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.144,52.602 L147.487,60.559 L153.269,59.090 L146.927,51.133 L141.144,52.602 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M147.487,60.995 L147.487,60.559 L141.144,52.602 L141.144,53.038 L147.487,60.995 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M147.487,60.995 L153.269,59.526 L153.269,59.090 L147.487,60.559 L147.487,60.995 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.361,52.874 L147.143,51.405 L147.143,46.825 L141.361,48.294 L141.361,52.874 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.361,52.874 L141.361,48.294 L141.144,48.022 L141.144,52.602 L141.361,52.874 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.144,48.022 L141.361,48.294 L147.143,46.825 L146.927,46.553 L141.144,48.022 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M152.571,58.940 L152.571,54.361 L146.662,46.948 L146.662,51.527 L152.571,58.940 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M146.662,46.948 L152.571,54.361 L153.052,54.238 L147.143,46.825 L146.662,46.948 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M152.571,58.940 L153.052,58.818 L153.052,54.238 L152.571,54.361 L152.571,58.940 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M147.270,60.287 L147.270,55.707 L141.361,48.294 L141.361,52.874 L147.270,60.287 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.361,48.294 L147.270,55.707 L147.752,55.585 L141.843,48.172 L141.361,48.294 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M147.270,60.287 L147.752,60.165 L147.752,55.585 L147.270,55.707 L147.270,60.287 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M147.487,60.559 L153.269,59.090 L153.269,54.510 L147.487,55.979 L147.487,60.559 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M147.487,60.559 L147.487,55.979 L147.270,55.707 L147.270,60.287 L147.487,60.559 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M147.270,55.707 L147.487,55.979 L153.269,54.510 L153.052,54.238 L147.270,55.707 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M135.000,54.163 L141.343,62.120 L145.318,61.110 L138.976,53.153 L135.000,54.163 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.343,62.556 L141.343,62.120 L135.000,54.163 L135.000,54.599 L141.343,62.556 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.343,62.556 L145.318,61.546 L145.318,61.110 L141.343,62.120 L141.343,62.556 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M135.217,54.435 L139.192,53.425 L139.192,48.845 L135.217,49.855 L135.217,54.435 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M135.217,54.435 L135.217,49.855 L135.000,49.583 L135.000,54.163 L135.217,54.435 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M135.000,49.583 L135.217,49.855 L139.192,48.845 L138.976,48.573 L135.000,49.583 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M144.620,60.960 L144.620,56.381 L138.710,48.968 L138.710,53.547 L144.620,60.960 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M138.710,48.968 L144.620,56.381 L145.101,56.258 L139.192,48.845 L138.710,48.968 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M144.620,60.960 L145.101,60.838 L145.101,56.258 L144.620,56.381 L144.620,60.960 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.126,61.848 L141.126,57.268 L135.217,49.855 L135.217,54.435 L141.126,61.848 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M135.217,49.855 L141.126,57.268 L141.608,57.146 L135.699,49.733 L135.217,49.855 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.126,61.848 L141.608,61.725 L141.608,57.146 L141.126,57.268 L141.126,61.848 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.343,62.120 L145.318,61.110 L145.318,56.530 L141.343,57.540 L141.343,62.120 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.343,62.120 L141.343,57.540 L141.126,57.268 L141.126,61.848 L141.343,62.120 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<path d="M141.126,57.268 L141.343,57.540 L145.318,56.530 L145.101,56.258 L141.126,57.268 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
-<text x="44.00" y="80.00" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">parts of one inner box</text>
-<text x="104.00" y="80.00" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">paper angles outside</text>
-<text x="166.00" y="80.00" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">five boxes in a row</text>
-<text x="44.00" y="84.00" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">vipande vya sanduku moja</text>
-<text x="104.00" y="84.00" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">pembe za karatasi kwa nje</text>
-<text x="166.00" y="84.00" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">masanduku matano kwa mstari</text>
+<text x="15.00" y="18.00" font-size="6.00" text-anchor="start" xml:space="preserve"><tspan fill="#1a1a1a" font-weight="bold">Steps · </tspan><tspan fill="#1a1a1a" font-style="italic" font-weight="bold">Hatua</tspan><tspan fill="#6b4a2b" font-weight="bold"> · Arbeitsschritte</tspan></text>
+<path d="M67.573,54.680 L67.573,44.670 L54.658,28.467 L54.658,38.477 L67.573,54.680 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M54.658,28.467 L67.573,44.670 L68.626,44.402 L55.711,28.199 L54.658,28.467 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M67.573,54.680 L68.626,54.412 L68.626,44.402 L67.573,44.670 L67.573,54.680 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M23.850,39.153 L41.755,34.605 L41.755,24.595 L23.850,29.143 L23.850,39.153 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M23.850,39.153 L23.850,29.143 L23.376,28.549 L23.376,38.559 L23.850,39.153 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M23.376,28.549 L23.850,29.143 L41.755,24.595 L41.281,24.000 L23.376,28.549 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M28.116,51.655 L41.979,69.047 L59.884,64.498 L46.021,47.106 L28.116,51.655 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M41.979,70.000 L41.979,69.047 L28.116,51.655 L28.116,52.608 L41.979,70.000 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M41.979,70.000 L59.884,65.451 L59.884,64.498 L41.979,69.047 L41.979,70.000 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M46.719,67.843 L64.624,63.294 L64.624,53.284 L46.719,57.833 L46.719,67.843 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M46.719,67.843 L46.719,57.833 L46.245,57.238 L46.245,67.248 L46.719,67.843 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M46.245,57.238 L46.719,57.833 L64.624,53.284 L64.150,52.689 L46.245,57.238 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M32.289,63.643 L32.289,53.633 L19.374,37.430 L19.374,47.440 L32.289,63.643 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M19.374,37.430 L32.289,53.633 L33.342,53.366 L20.427,37.163 L19.374,37.430 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M32.289,63.643 L33.342,63.376 L33.342,53.366 L32.289,53.633 L32.289,63.643 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<circle cx="44.00" cy="58.55" r="3.2" fill="#ffffff" stroke="#7a3e12" stroke-width="0.4"/>
+<text x="44.00" y="59.85" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">B</text>
+<circle cx="55.43" cy="60.27" r="3.2" fill="#ffffff" stroke="#7a3e12" stroke-width="0.4"/>
+<text x="55.43" y="61.57" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">L</text>
+<circle cx="26.36" cy="50.40" r="3.2" fill="#ffffff" stroke="#7a3e12" stroke-width="0.4"/>
+<text x="26.36" y="51.70" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">S</text>
+<path d="M109.273,42.439 L109.273,27.219 L106.805,24.124 L106.805,39.343 L109.273,42.439 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M109.273,42.439 L109.492,42.383 L109.492,27.163 L109.273,27.219 L109.273,42.439 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M106.805,24.124 L109.273,27.219 L109.492,27.163 L107.025,24.068 L106.805,24.124 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M126.051,63.487 L126.051,58.524 L106.805,34.380 L106.805,39.343 L126.051,63.487 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M106.805,34.380 L126.051,58.524 L126.270,58.468 L107.025,34.325 L106.805,34.380 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M126.051,63.487 L126.270,63.431 L126.270,58.468 L126.051,58.524 L126.051,63.487 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M126.051,63.487 L126.051,48.268 L123.584,45.172 L123.584,60.392 L126.051,63.487 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M126.051,63.487 L126.270,63.431 L126.270,48.212 L126.051,48.268 L126.051,63.487 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M123.584,45.172 L126.051,48.268 L126.270,48.212 L123.803,45.116 L123.584,45.172 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.322,40.736 L106.805,39.343 L106.805,24.124 L101.322,25.517 L101.322,40.736 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.322,40.736 L101.322,25.517 L101.224,25.393 L101.224,40.612 L101.322,40.736 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.224,25.393 L101.322,25.517 L106.805,24.124 L106.707,24.000 L101.224,25.393 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,45.658 L106.805,39.343 L106.805,34.380 L81.949,40.695 L81.949,45.658 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.850,40.571 L81.949,40.695 L106.805,34.380 L106.707,34.257 L81.850,40.571 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,45.658 L81.949,40.695 L81.850,40.571 L81.850,45.534 L81.949,45.658 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.322,40.736 L120.568,64.880 L126.051,63.487 L106.805,39.343 L101.322,40.736 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M120.568,65.078 L120.568,64.880 L101.322,40.736 L101.322,40.935 L120.568,65.078 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M120.568,65.078 L126.051,63.685 L126.051,63.487 L120.568,64.880 L120.568,65.078 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,45.658 L84.416,48.753 L109.273,42.439 L106.805,39.343 L81.949,45.658 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M84.416,48.952 L109.273,42.637 L109.273,42.439 L84.416,48.753 L84.416,48.952 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M84.416,48.952 L84.416,48.753 L81.949,45.658 L81.949,45.856 L84.416,48.952 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M82.607,45.160 L107.463,38.845 L107.463,24.949 L82.607,31.264 L82.607,45.160 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M82.607,45.160 L82.607,31.264 L81.949,30.438 L81.949,44.334 L82.607,45.160 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,30.438 L82.607,31.264 L107.463,24.949 L106.805,24.124 L81.949,30.438 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,45.658 L87.432,44.265 L87.432,29.045 L81.949,30.438 L81.949,45.658 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,45.658 L81.949,30.438 L81.850,30.315 L81.850,45.534 L81.949,45.658 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.850,30.315 L81.949,30.438 L87.432,29.045 L87.333,28.922 L81.850,30.315 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M98.727,66.706 L101.195,69.801 L126.051,63.487 L123.584,60.392 L98.727,66.706 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,70.000 L126.051,63.685 L126.051,63.487 L101.195,69.801 L101.195,70.000 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,70.000 L101.195,69.801 L98.727,66.706 L98.727,66.905 L101.195,70.000 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M84.197,48.809 L84.197,33.589 L81.730,30.494 L81.730,45.714 L84.197,48.809 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M84.197,48.809 L84.416,48.753 L84.416,33.534 L84.197,33.589 L84.197,48.809 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.730,30.494 L84.197,33.589 L84.416,33.534 L81.949,30.438 L81.730,30.494 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,44.334 L101.195,68.478 L126.051,62.164 L106.805,38.020 L81.949,44.334 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,69.801 L101.195,68.478 L81.949,44.334 L81.949,45.658 L101.195,69.801 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,69.801 L126.051,63.487 L126.051,62.164 L101.195,68.478 L101.195,69.801 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M123.931,61.710 L123.931,47.814 L106.001,25.321 L106.001,39.217 L123.931,61.710 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M106.001,25.321 L123.931,47.814 L125.393,47.442 L107.463,24.949 L106.001,25.321 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M123.931,61.710 L125.393,61.338 L125.393,47.442 L123.931,47.814 L123.931,61.710 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.949,45.658 L101.195,69.801 L106.678,68.409 L87.432,44.265 L81.949,45.658 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,70.000 L101.195,69.801 L81.949,45.658 L81.949,45.856 L101.195,70.000 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,70.000 L106.678,68.607 L106.678,68.409 L101.195,69.801 L101.195,70.000 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M100.975,69.857 L100.975,64.894 L81.730,40.751 L81.730,45.714 L100.975,69.857 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M81.730,40.751 L100.975,64.894 L101.195,64.839 L81.949,40.695 L81.730,40.751 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M100.975,69.857 L101.195,69.801 L101.195,64.839 L100.975,64.894 L100.975,69.857 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M100.537,67.653 L100.537,53.757 L82.607,31.264 L82.607,45.160 L100.537,67.653 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M82.607,31.264 L100.537,53.757 L101.999,53.385 L84.069,30.892 L82.607,31.264 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M100.537,67.653 L101.999,67.281 L101.999,53.385 L100.537,53.757 L100.537,67.653 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,68.478 L126.051,62.164 L126.051,48.268 L101.195,54.582 L101.195,68.478 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,68.478 L101.195,54.582 L100.537,53.757 L100.537,67.653 L101.195,68.478 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M100.537,53.757 L101.195,54.582 L126.051,48.268 L125.393,47.442 L100.537,53.757 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M120.667,65.004 L126.150,63.611 L126.150,48.391 L120.667,49.784 L120.667,65.004 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M120.667,65.004 L120.667,49.784 L120.568,49.660 L120.568,64.880 L120.667,65.004 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M120.568,49.660 L120.667,49.784 L126.150,48.391 L126.051,48.268 L120.568,49.660 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.293,69.925 L126.150,63.611 L126.150,58.648 L101.293,64.962 L101.293,69.925 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,64.839 L101.293,64.962 L126.150,58.648 L126.051,58.524 L101.195,64.839 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.293,69.925 L101.293,64.962 L101.195,64.839 L101.195,69.801 L101.293,69.925 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.293,69.925 L106.776,68.532 L106.776,53.313 L101.293,54.706 L101.293,69.925 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.293,69.925 L101.293,54.706 L101.195,54.582 L101.195,69.801 L101.293,69.925 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M101.195,54.582 L101.293,54.706 L106.776,53.313 L106.678,53.189 L101.195,54.582 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M100.975,69.857 L100.975,54.638 L98.508,51.542 L98.508,66.762 L100.975,69.857 Z " fill="#aba89e" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M100.975,69.857 L101.195,69.801 L101.195,54.582 L100.975,54.638 L100.975,69.857 Z " fill="#bcb8ae" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M98.508,51.542 L100.975,54.638 L101.195,54.582 L98.727,51.487 L98.508,51.542 Z " fill="#e3ded1" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M173.430,42.400 L179.773,50.357 L197.000,45.981 L190.657,38.024 L173.430,42.400 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M179.773,50.793 L179.773,50.357 L173.430,42.400 L173.430,42.836 L179.773,50.793 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M179.773,50.793 L197.000,46.417 L197.000,45.981 L179.773,50.357 L179.773,50.793 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M173.647,42.672 L190.874,38.296 L190.874,33.716 L173.647,38.092 L173.647,42.672 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M173.430,37.820 L173.647,38.092 L190.874,33.716 L190.657,33.444 L173.430,37.820 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M173.647,42.672 L173.647,38.092 L173.430,37.820 L173.430,42.400 L173.647,42.672 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M196.301,45.831 L196.301,41.251 L190.392,33.838 L190.392,38.418 L196.301,45.831 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M190.392,33.838 L196.301,41.251 L196.783,41.129 L190.874,33.716 L190.392,33.838 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M196.301,45.831 L196.783,45.709 L196.783,41.129 L196.301,41.251 L196.301,45.831 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M179.556,50.085 L179.556,45.505 L173.647,38.092 L173.647,42.672 L179.556,50.085 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M173.647,38.092 L179.556,45.505 L180.038,45.383 L174.129,37.970 L173.647,38.092 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M179.556,50.085 L180.038,49.963 L180.038,45.383 L179.556,45.505 L179.556,50.085 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M179.773,50.357 L197.000,45.981 L197.000,41.401 L179.773,45.777 L179.773,50.357 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M179.556,45.505 L179.773,45.777 L197.000,41.401 L196.783,41.129 L179.556,45.505 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M179.773,50.357 L179.773,45.777 L179.556,45.505 L179.556,50.085 L179.773,50.357 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M159.455,45.950 L165.798,53.907 L177.604,50.908 L171.262,42.951 L159.455,45.950 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M165.798,54.343 L165.798,53.907 L159.455,45.950 L159.455,46.386 L165.798,54.343 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M165.798,54.343 L177.604,51.344 L177.604,51.017 L177.604,50.908 L165.798,53.907 L165.798,54.343 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M159.672,46.222 L171.478,43.223 L171.478,39.788 L171.478,38.643 L159.672,41.642 L159.672,46.222 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M159.455,41.370 L159.672,41.642 L171.478,38.643 L171.262,38.371 L159.455,41.370 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M159.672,46.222 L159.672,41.642 L159.455,41.370 L159.455,45.950 L159.672,46.222 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M176.906,50.758 L176.906,46.179 L170.997,38.766 L170.997,43.345 L176.906,50.758 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M170.997,38.766 L176.906,46.179 L177.387,46.056 L171.478,38.643 L170.997,38.766 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M176.906,50.758 L177.387,50.636 L177.387,46.056 L176.906,46.179 L176.906,50.758 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M165.581,53.635 L165.581,49.055 L159.672,41.642 L159.672,46.222 L165.581,53.635 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M159.672,41.642 L165.581,49.055 L166.063,48.933 L160.154,41.520 L159.672,41.642 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M165.581,53.635 L166.063,53.513 L166.063,48.933 L165.581,49.055 L165.581,53.635 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M165.798,53.907 L177.604,50.908 L177.604,47.473 L177.604,46.328 L165.798,49.328 L165.798,53.907 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M165.581,49.055 L165.798,49.328 L177.604,46.328 L177.387,46.056 L165.581,49.055 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M165.798,53.907 L165.798,49.328 L165.581,49.055 L165.581,53.635 L165.798,53.907 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M149.095,48.582 L155.438,56.539 L163.630,54.458 L157.287,46.501 L149.095,48.582 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M155.438,56.975 L155.438,56.539 L149.095,48.582 L149.095,49.018 L155.438,56.975 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M155.438,56.975 L163.630,54.894 L163.630,54.458 L155.438,56.539 L155.438,56.975 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M149.312,48.854 L157.504,46.773 L157.504,42.193 L149.312,44.274 L149.312,48.854 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M149.312,48.854 L149.312,44.274 L149.095,44.002 L149.095,48.582 L149.312,48.854 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M149.095,44.002 L149.312,44.274 L157.504,42.193 L157.287,41.921 L149.095,44.002 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M162.931,54.309 L162.931,49.729 L157.022,42.316 L157.022,46.895 L162.931,54.309 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M157.022,42.316 L162.931,49.729 L163.413,49.606 L157.504,42.193 L157.022,42.316 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M162.931,54.309 L163.413,54.186 L163.413,49.606 L162.931,49.729 L162.931,54.309 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M155.221,56.267 L155.221,51.687 L149.312,44.274 L149.312,48.854 L155.221,56.267 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M149.312,44.274 L155.221,51.687 L155.703,51.565 L149.794,44.152 L149.312,44.274 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M155.221,56.267 L155.703,56.145 L155.703,51.565 L155.221,51.687 L155.221,56.267 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M155.438,56.539 L163.630,54.458 L163.630,49.878 L155.438,51.959 L155.438,56.539 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M155.438,56.539 L155.438,51.959 L155.221,51.687 L155.221,56.267 L155.438,56.539 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M155.221,51.687 L155.438,51.959 L163.630,49.878 L163.413,49.606 L155.221,51.687 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.144,50.602 L147.487,58.559 L153.269,57.090 L146.927,49.133 L141.144,50.602 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M147.487,58.995 L147.487,58.559 L141.144,50.602 L141.144,51.038 L147.487,58.995 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M147.487,58.995 L153.269,57.526 L153.269,57.090 L147.487,58.559 L147.487,58.995 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.361,50.874 L147.143,49.405 L147.143,44.825 L141.361,46.294 L141.361,50.874 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.361,50.874 L141.361,46.294 L141.144,46.022 L141.144,50.602 L141.361,50.874 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.144,46.022 L141.361,46.294 L147.143,44.825 L146.927,44.553 L141.144,46.022 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M152.571,56.940 L152.571,52.361 L146.662,44.948 L146.662,49.527 L152.571,56.940 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M146.662,44.948 L152.571,52.361 L153.052,52.238 L147.143,44.825 L146.662,44.948 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M152.571,56.940 L153.052,56.818 L153.052,52.238 L152.571,52.361 L152.571,56.940 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M147.270,58.287 L147.270,53.707 L141.361,46.294 L141.361,50.874 L147.270,58.287 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.361,46.294 L147.270,53.707 L147.752,53.585 L141.843,46.172 L141.361,46.294 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M147.270,58.287 L147.752,58.165 L147.752,53.585 L147.270,53.707 L147.270,58.287 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M147.487,58.559 L153.269,57.090 L153.269,52.510 L147.487,53.979 L147.487,58.559 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M147.487,58.559 L147.487,53.979 L147.270,53.707 L147.270,58.287 L147.487,58.559 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M147.270,53.707 L147.487,53.979 L153.269,52.510 L153.052,52.238 L147.270,53.707 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M135.000,52.163 L141.343,60.120 L145.318,59.110 L138.976,51.153 L135.000,52.163 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.343,60.556 L141.343,60.120 L135.000,52.163 L135.000,52.599 L141.343,60.556 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.343,60.556 L145.318,59.546 L145.318,59.110 L141.343,60.120 L141.343,60.556 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M135.217,52.435 L139.192,51.425 L139.192,46.845 L135.217,47.855 L135.217,52.435 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M135.217,52.435 L135.217,47.855 L135.000,47.583 L135.000,52.163 L135.217,52.435 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M135.000,47.583 L135.217,47.855 L139.192,46.845 L138.976,46.573 L135.000,47.583 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M144.620,58.960 L144.620,54.381 L138.710,46.968 L138.710,51.547 L144.620,58.960 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M138.710,46.968 L144.620,54.381 L145.101,54.258 L139.192,46.845 L138.710,46.968 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M144.620,58.960 L145.101,58.838 L145.101,54.258 L144.620,54.381 L144.620,58.960 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.126,59.848 L141.126,55.268 L135.217,47.855 L135.217,52.435 L141.126,59.848 Z " fill="#765430" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M135.217,47.855 L141.126,55.268 L141.608,55.146 L135.699,47.733 L135.217,47.855 Z " fill="#9c6f40" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.126,59.848 L141.608,59.725 L141.608,55.146 L141.126,55.268 L141.126,59.848 Z " fill="#815c35" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.343,60.120 L145.318,59.110 L145.318,54.530 L141.343,55.540 L141.343,60.120 Z " fill="#977145" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.343,60.120 L141.343,55.540 L141.126,55.268 L141.126,59.848 L141.343,60.120 Z " fill="#89673f" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<path d="M141.126,55.268 L141.343,55.540 L145.318,54.530 L145.101,54.258 L141.126,55.268 Z " fill="#b68853" fill-rule="evenodd" stroke="#3b2a1a" stroke-width="0.18" stroke-linejoin="round"/>
+<text x="44.00" y="76.00" font-size="3.00" text-anchor="middle" fill="#555">parts of one inner box</text>
+<text x="44.00" y="79.50" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">vipande vya sanduku moja</text>
+<text x="44.00" y="83.00" font-size="3.00" text-anchor="middle" fill="#6b4a2b">Teile eines Innenkastens</text>
+<text x="104.00" y="76.00" font-size="3.00" text-anchor="middle" fill="#555">paper angles outside</text>
+<text x="104.00" y="79.50" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">pembe za karatasi kwa nje</text>
+<text x="104.00" y="83.00" font-size="3.00" text-anchor="middle" fill="#6b4a2b">Papierwinkel außen</text>
+<text x="166.00" y="76.00" font-size="3.00" text-anchor="middle" fill="#555">five boxes in a row</text>
+<text x="166.00" y="79.50" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">masanduku matano kwa mstari</text>
+<text x="166.00" y="83.00" font-size="3.00" text-anchor="middle" fill="#6b4a2b">fünf Kästen in einer Reihe</text>
 <circle cx="19" cy="94.70" r="3.4" fill="#7a3e12"/>
 <text x="19.00" y="96.00" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">1</text>
-<text x="26.00" y="96.00" font-size="3.60" text-anchor="start" fill="#1a1a1a">Cut all parts from the list. In every wall the flutes run up and down: from above you look into</text>
-<text x="26.00" y="100.60" font-size="3.60" text-anchor="start" fill="#1a1a1a">the open flutes. In the bottoms the flutes run along the long side. Cut with several light strokes</text>
-<text x="26.00" y="105.20" font-size="3.60" text-anchor="start" fill="#1a1a1a">along the steel ruler, keep the corners square.</text>
-<text x="26.00" y="109.80" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">Kata vipande vyote vya orodha. Katika kila ukuta mawimbi yanaenda juu na chini: ukitazama kutoka</text>
-<text x="26.00" y="114.40" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">juu unaona matundu ya mawimbi. Katika vitako mawimbi yanafuata upande mrefu. Kata kwa mipigo</text>
-<text x="26.00" y="119.00" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">kadhaa myepesi kando ya rula ya chuma, pembe ziwe za mraba.</text>
-<circle cx="19" cy="125.90" r="3.4" fill="#7a3e12"/>
-<text x="19.00" y="127.20" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">2</text>
-<text x="26.00" y="127.20" font-size="3.60" text-anchor="start" fill="#1a1a1a">Cut paper strips 30 mm wide and fold each one lengthwise in the middle, so that it forms an angle</text>
-<text x="26.00" y="131.80" font-size="3.60" text-anchor="start" fill="#1a1a1a">with two legs of 15 mm. Cut them to the lengths in the list.</text>
-<text x="26.00" y="136.40" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">Kata vipande vya karatasi vyenye upana wa mm 30 na kunja kila kimoja katikati kwa urefu wake, kiwe</text>
-<text x="26.00" y="141.00" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">pembe yenye pande mbili za mm 15. Vikate kwa urefu wa orodha.</text>
-<circle cx="19" cy="147.90" r="3.4" fill="#7a3e12"/>
-<text x="19.00" y="149.20" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">3</text>
-<text x="26.00" y="149.20" font-size="3.60" text-anchor="start" fill="#1a1a1a">Build one inner box: put the two long walls L on the bottom B, the two end walls S stand between</text>
-<text x="26.00" y="153.80" font-size="3.60" text-anchor="start" fill="#1a1a1a">them. Glue the paper angles on the outside: first the 4 bottom edges, then the 4 upright corners.</text>
-<text x="26.00" y="158.40" font-size="3.60" text-anchor="start" fill="#1a1a1a">Spray the angle, wait a moment, press it on firmly.</text>
-<text x="26.00" y="163.00" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">Jenga sanduku moja la ndani: weka kuta mbili ndefu L juu ya kitako B, kuta mbili za mwisho S</text>
-<text x="26.00" y="167.60" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">zinasimama katikati yake. Gundisha pembe za karatasi kwa nje: kwanza kingo 4 za chini, kisha pembe</text>
-<text x="26.00" y="172.20" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">4 zilizosimama. Nyunyiza gundi kwenye pembe, subiri kidogo, kisha ibonyeze kwa nguvu.</text>
-<circle cx="19" cy="179.10" r="3.4" fill="#7a3e12"/>
-<text x="19.00" y="180.40" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">4</text>
-<text x="26.00" y="180.40" font-size="3.60" text-anchor="start" fill="#1a1a1a">Make all five inner boxes 1 to 5 this way. Each box must be square and a card must fit in easily.</text>
-<text x="26.00" y="185.00" font-size="3.60" text-anchor="start" fill="#1a1a1a">The number of the box is the number on L and B.</text>
-<text x="26.00" y="189.60" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">Tengeneza masanduku yote matano ya ndani 1 hadi 5 kwa njia hii. Kila sanduku liwe la mraba na kadi</text>
-<text x="26.00" y="194.20" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">iingie kwa urahisi. Namba ya sanduku ni namba iliyo kwenye L na B.</text>
-<circle cx="19" cy="201.10" r="3.4" fill="#7a3e12"/>
-<text x="19.00" y="202.40" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">5</text>
-<text x="26.00" y="202.40" font-size="3.60" text-anchor="start" fill="#1a1a1a">Glue the inner boxes together in a row, 1 to 5. Spray the end walls that touch, align bottoms and</text>
-<text x="26.00" y="207.00" font-size="3.60" text-anchor="start" fill="#1a1a1a">top edges and press.</text>
-<text x="26.00" y="211.60" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">Gundisha masanduku ya ndani pamoja kwa mstari, 1 hadi 5. Nyunyiza gundi kwenye kuta za mwisho</text>
-<text x="26.00" y="216.20" font-size="3.60" text-anchor="start" fill="#3d3d3d" font-style="italic">zinazogusana, linganisha vitako na kingo za juu, kisha bonyeza.</text>
+<text x="26.00" y="96.00" font-size="3.50" text-anchor="start" fill="#1a1a1a">Cut all parts from the list. In every wall the flutes run up and down: from above you look into the</text>
+<text x="26.00" y="100.40" font-size="3.50" text-anchor="start" fill="#1a1a1a">open flutes. In the bottoms the flutes run along the long side. Cut with several light strokes along</text>
+<text x="26.00" y="104.80" font-size="3.50" text-anchor="start" fill="#1a1a1a">the steel ruler, keep the corners square.</text>
+<text x="26.00" y="109.80" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Kata vipande vyote vya orodha. Katika kila ukuta mawimbi yanaenda juu na chini: ukitazama kutoka juu</text>
+<text x="26.00" y="114.20" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">unaona matundu ya mawimbi. Katika vitako mawimbi yanafuata upande mrefu. Kata kwa mipigo kadhaa</text>
+<text x="26.00" y="118.60" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">myepesi kando ya rula ya chuma, pembe ziwe za mraba.</text>
+<text x="26.00" y="123.60" font-size="3.50" text-anchor="start" fill="#6b4a2b">Alle Teile nach der Liste zuschneiden. In allen Wänden laufen die Wellen senkrecht: Von oben sieht</text>
+<text x="26.00" y="128.00" font-size="3.50" text-anchor="start" fill="#6b4a2b">man in die offenen Wellen. In den Böden laufen die Wellen längs. Mit mehreren leichten Zügen am</text>
+<text x="26.00" y="132.40" font-size="3.50" text-anchor="start" fill="#6b4a2b">Stahllineal entlang schneiden, die Ecken rechtwinklig halten.</text>
+<circle cx="19" cy="138.70" r="3.4" fill="#7a3e12"/>
+<text x="19.00" y="140.00" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">2</text>
+<text x="26.00" y="140.00" font-size="3.50" text-anchor="start" fill="#1a1a1a">Cut paper strips 30 mm wide and fold each one lengthwise in the middle, so that it forms an angle</text>
+<text x="26.00" y="144.40" font-size="3.50" text-anchor="start" fill="#1a1a1a">with two legs of 15 mm. Cut them to the lengths in the list.</text>
+<text x="26.00" y="149.40" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Kata vipande vya karatasi vyenye upana wa mm 30 na kunja kila kimoja katikati kwa urefu wake, kiwe</text>
+<text x="26.00" y="153.80" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">pembe yenye pande mbili za mm 15. Vikate kwa urefu wa orodha.</text>
+<text x="26.00" y="158.80" font-size="3.50" text-anchor="start" fill="#6b4a2b">Papierstreifen 30 mm breit schneiden und jeden der Länge nach mittig falzen, so dass ein Winkel mit</text>
+<text x="26.00" y="163.20" font-size="3.50" text-anchor="start" fill="#6b4a2b">zwei Schenkeln von je 15 mm entsteht. Auf die Längen der Liste ablängen.</text>
+<circle cx="19" cy="169.50" r="3.4" fill="#7a3e12"/>
+<text x="19.00" y="170.80" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">3</text>
+<text x="26.00" y="170.80" font-size="3.50" text-anchor="start" fill="#1a1a1a">Build one inner box: put the two long walls L on the bottom B, the two end walls S stand between</text>
+<text x="26.00" y="175.20" font-size="3.50" text-anchor="start" fill="#1a1a1a">them. Glue the paper angles on the outside: first the 4 bottom edges, then the 4 upright corners.</text>
+<text x="26.00" y="179.60" font-size="3.50" text-anchor="start" fill="#1a1a1a">Spray the angle, wait a moment, press it on firmly.</text>
+<text x="26.00" y="184.60" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Jenga sanduku moja la ndani: weka kuta mbili ndefu L juu ya kitako B, kuta mbili za mwisho S</text>
+<text x="26.00" y="189.00" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">zinasimama katikati yake. Gundisha pembe za karatasi kwa nje: kwanza kingo 4 za chini, kisha pembe 4</text>
+<text x="26.00" y="193.40" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">zilizosimama. Nyunyiza gundi kwenye pembe, subiri kidogo, kisha ibonyeze kwa nguvu.</text>
+<text x="26.00" y="198.40" font-size="3.50" text-anchor="start" fill="#6b4a2b">Einen Innenkasten bauen: Die beiden Längsseiten L auf den Boden B stellen, die beiden Stirnwände S</text>
+<text x="26.00" y="202.80" font-size="3.50" text-anchor="start" fill="#6b4a2b">stehen dazwischen. Die Papierwinkel außen aufkleben, zuerst die 4 Bodenkanten, dann die 4</text>
+<text x="26.00" y="207.20" font-size="3.50" text-anchor="start" fill="#6b4a2b">senkrechten Ecken. Winkel einsprühen, kurz ablüften lassen, fest andrücken.</text>
+<circle cx="19" cy="213.50" r="3.4" fill="#7a3e12"/>
+<text x="19.00" y="214.80" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">4</text>
+<text x="26.00" y="214.80" font-size="3.50" text-anchor="start" fill="#1a1a1a">Make all five inner boxes 1 to 5 this way. Each box must be square and a card must fit in easily.</text>
+<text x="26.00" y="219.20" font-size="3.50" text-anchor="start" fill="#1a1a1a">The number of the box is the number on L and B.</text>
+<text x="26.00" y="224.20" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Tengeneza masanduku yote matano ya ndani 1 hadi 5 kwa njia hii. Kila sanduku liwe la mraba na kadi</text>
+<text x="26.00" y="228.60" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">iingie kwa urahisi. Namba ya sanduku ni namba iliyo kwenye L na B.</text>
+<text x="26.00" y="233.60" font-size="3.50" text-anchor="start" fill="#6b4a2b">So alle fünf Innenkästen 1 bis 5 bauen. Jeder Kasten muss rechtwinklig sein, und eine Karte muss</text>
+<text x="26.00" y="238.00" font-size="3.50" text-anchor="start" fill="#6b4a2b">leicht hineinpassen. Die Nummer des Kastens ist die Nummer auf L und B.</text>
+<circle cx="19" cy="244.30" r="3.4" fill="#7a3e12"/>
+<text x="19.00" y="245.60" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">5</text>
+<text x="26.00" y="245.60" font-size="3.50" text-anchor="start" fill="#1a1a1a">Glue the inner boxes together in a row, 1 to 5. Spray the end walls that touch, align bottoms and</text>
+<text x="26.00" y="250.00" font-size="3.50" text-anchor="start" fill="#1a1a1a">top edges and press.</text>
+<text x="26.00" y="255.00" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Gundisha masanduku ya ndani pamoja kwa mstari, 1 hadi 5. Nyunyiza gundi kwenye kuta za mwisho</text>
+<text x="26.00" y="259.40" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">zinazogusana, linganisha vitako na kingo za juu, kisha bonyeza.</text>
+<text x="26.00" y="264.40" font-size="3.50" text-anchor="start" fill="#6b4a2b">Die Innenkästen in einer Reihe aneinanderkleben, 1 bis 5. Die Stirnwände einsprühen, die sich</text>
+<text x="26.00" y="268.80" font-size="3.50" text-anchor="start" fill="#6b4a2b">berühren, Böden und Oberkanten bündig ausrichten und andrücken.</text>
 </svg>

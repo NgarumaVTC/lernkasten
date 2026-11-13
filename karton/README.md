@@ -56,7 +56,9 @@ Ränder einhält.
 | `dxf/<teil>.dxf` | Einzelteile (Layer `AUSSEN` schneiden, `INFO` = Wellenpfeil) |
 | `zuschnitt.pdf` / `.dxf` | Teileliste, Satzskizze, Papierwinkel, Bedarf für die Serie |
 | `bogen.pdf` / `.dxf` | Nest auf einem Wellpappbogen (`BOARD`, Wellen parallel zur zweiten Seite) |
-| `montage.pdf` | Anleitung Englisch / Kiswahili mit Zuschnittliste |
+| `montage.pdf` | Anleitung Englisch / Kiswahili / Deutsch mit Zuschnittliste |
+| `schneidlade/bauplan.pdf` | Bauplan der Schneidlade, Schneidplan je Bogen (siehe unten) |
+| `schneidlade/schneidlade.FCStd` / `.step` | Modell der Schneidlade |
 
 Im Nest werden die Teile nicht gedreht, damit die Wellenrichtung stimmt. Bei 1200 × 800 passen 3 Kästen auf einen Bogen.
 Für 120 Kästen plus 5 % Ausschuss sind das **42 Bögen**. Dazu kommen etwa 1,6 Blatt Kopierpapier A4 je Kasten (knapp 200 Blatt für die Serie).
@@ -67,4 +69,45 @@ Für 120 Kästen plus 5 % Ausschuss sind das **42 Bögen**. Dazu kommen etwa 1,6
 2. **Probekasten** bauen. Passt die Karte in der Breite nicht leicht hinein, `PLAY_W` erhöhen.
 3. `BOARD` an das Bogenformat anpassen, das man tatsächlich bekommt.
 
-Die Kiswahili-Texte der Montageanleitung sollte jemand vor Ort gegenlesen.
+Die Kiswahili-Texte der Montageanleitung und des Bauplans sollte jemand vor Ort gegenlesen.
+
+## Schneidlade
+
+Die Tischlerlehrlinge in Ngaruma bauen unter Anleitung ihres Meisters eine Schneidvorrichtung aus Holz und
+schneiden damit die Kartons für ihre Mitschüler. Geklebt wird nach `montage.pdf`.
+
+```sh
+cd karton
+freecadcmd schneidlade.py                 # ca. 20 s, nimmt T usw. aus lernkasten.py
+```
+
+Aufbau: Auf einer Grundplatte (Sperrholz 18 mm) liegt eine Hartholzschiene. Sie ist links drehbar gelagert
+und fällt rechts in eine Fanggabel. Auf der Schiene läuft ein Schlitten mit einer 18-mm-Abbrechklinge unter
+45°, die in eine austauschbare Opferleiste taucht. Hinter der Schnittlinie liegt eine Anschlagleiste. Zwei
+Steckstifte halten sie, und für jedes Anschlagmaß gibt es ein eigenes Lochpaar. So muss beim Schneiden
+niemand messen. Ein Seitenanschlag sorgt für rechtwinklige Ablängschnitte.
+
+Alle Teile sind Rechtecke, also wird in zwei Gängen geschnitten: erst Streifen vom Bogen, dann Ablängen.
+Die Anschlagmaße ergeben sich aus den Teilemaßen, bei t = 4 mm sind es 33, 42, 48, 50, 68, 98, 109, 117,
+143, 390 und 398 mm. Der Schneidplan ist ein reiner Streifenplan, damit jeder Schnitt durchgeht. Bei
+1200 × 800 ergibt er wie das Nest 3 Kästen je Bogen.
+
+Das Skript prüft:
+
+- dass sich keine Teile überschneiden
+- dass die Klinge durch den Karton bis in die Opferleiste reicht, aber nicht in die Grundplatte
+- den Klingenweg über die ganze Schnittlänge `CUT_MAX`
+- die Lochabstände
+- dass der Schneidplan alle Teile enthält
+
+Der Bauplan hat 6 Seiten im Querformat A4, auf Englisch, Kiswahili und Deutsch:
+
+1. Holzliste und Beschläge
+2. Draufsicht mit Lochtabelle
+3. Schlitten im Maßstab 1 : 1
+4. Bau
+5. Bedienung
+6. Schneidplan
+
+Die Löcher werden erst nach einem Probeschnitt angerissen, und zwar von der echten Schnittlinie aus.
+Klingen (Abbrechklingen 18 mm) bringen wir aus Deutschland mit.

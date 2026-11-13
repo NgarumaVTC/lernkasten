@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210" font-family="'Latin Modern Roman', 'CMU Serif', serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12.00" y="14.00" font-size="5.40" text-anchor="start" xml:space="preserve"><tspan fill="#1a1a1a" font-weight="bold">Building the jig · </tspan><tspan fill="#1a1a1a" font-style="italic" font-weight="bold">Kutengeneza kifaa</tspan><tspan fill="#6b4a2b" font-weight="bold"> · Bau der Schneidlade</tspan></text>
+<text x="285.00" y="204.00" font-size="2.80" text-anchor="end" fill="#666">4 / 6</text>
+<path d="M12.000,17.000 L285.000,17.000" stroke="#999" stroke-width="0.2" fill="none"/>
+<text x="12.00" y="204.00" font-size="2.80" text-anchor="start" fill="#666">NgarumaVTC · Schneidlade für den Lernkasten A7 · Karton t = 4 mm</text>
+<circle cx="16" cy="23.80" r="3" fill="#7a3e12"/>
+<text x="16.00" y="25.00" font-size="3.40" text-anchor="middle" fill="#fff" font-weight="bold">1</text>
+<text x="22.00" y="25.00" font-size="3.00" text-anchor="start" fill="#1a1a1a">Base G: cut the groove 30 × 6 mm, 130 mm from the long front edge (centre), and glue nothing into it. The sacrificial strip O must fit tightly but can be pulled</text>
+<text x="22.00" y="28.60" font-size="3.00" text-anchor="start" fill="#1a1a1a">out.</text>
+<text x="22.00" y="32.70" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Ubao G: chonga mfereji 30 × 6 mm, mm 130 kutoka ukingo wa mbele (katikati). Kipande O kiingie kwa kubana lakini kiweze kutolewa.</text>
+<text x="22.00" y="36.80" font-size="3.00" text-anchor="start" fill="#6b4a2b">Grundplatte G: Nut 30 × 6 mm fräsen, Mitte 130 mm von der vorderen Längskante. Opferleiste O stramm einpassen, nicht einleimen.</text>
+<circle cx="16" cy="41.40" r="3" fill="#7a3e12"/>
+<text x="16.00" y="42.60" font-size="3.40" text-anchor="middle" fill="#fff" font-weight="bold">2</text>
+<text x="22.00" y="42.60" font-size="3.00" text-anchor="start" fill="#1a1a1a">Rail R: plane it straight and square. Drill the slot for the M10 bolt 20 mm from the left end: Ø 10, 6 mm long (up and down), so that the rail lies flat with or</text>
+<text x="22.00" y="46.20" font-size="3.00" text-anchor="start" fill="#1a1a1a">without cardboard.</text>
+<text x="22.00" y="50.30" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Reli R: iranda iwe nyoofu na ya mraba. Toboa tundu refu la bolti M10 mm 20 kutoka mwisho wa kushoto: Ø 10, urefu mm 6 (juu-chini).</text>
+<text x="22.00" y="54.40" font-size="3.00" text-anchor="start" fill="#6b4a2b">Schiene R: gerade und winklig abrichten. Langloch für M10 20 mm vom linken Ende: Ø 10, 6 mm lang senkrecht, damit die Schiene mit und ohne Karton flach</text>
+<text x="22.00" y="58.00" font-size="3.00" text-anchor="start" fill="#6b4a2b">aufliegt.</text>
+<circle cx="16" cy="62.60" r="3" fill="#7a3e12"/>
+<text x="16.00" y="63.80" font-size="3.40" text-anchor="middle" fill="#fff" font-weight="bold">3</text>
+<text x="22.00" y="63.80" font-size="3.00" text-anchor="start" fill="#1a1a1a">Carriage W1–W5 (page 3): glue and screw the front cheek W2 under the top W1 and the blade cheek W5 to the back of W1, so that the carriage slides on the rail</text>
+<text x="22.00" y="67.40" font-size="3.00" text-anchor="start" fill="#1a1a1a">without play (0.3 mm each side). Drill W5 and W3 together for the bolts and pins (page 3), countersink W5 on the inside so the bolt heads are flush, glue the</text>
+<text x="22.00" y="71.00" font-size="3.00" text-anchor="start" fill="#1a1a1a">pins into W5. Fit the knob W4.</text>
+<text x="22.00" y="75.10" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Gari W1–W5 (ukurasa 3): gundisha na funga ubavu W2 chini ya W1 na ubavu W5 nyuma ya W1, ili gari liteleze kwenye reli bila kulegea (mm 0.3 kila upande). Toboa</text>
+<text x="22.00" y="78.70" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">W5 na W3 pamoja kwa bolti na pini (ukurasa 3), chonga W5 ndani ili vichwa vya bolti visitokeze, gundisha pini kwenye W5. Funga kitasa W4.</text>
+<text x="22.00" y="82.80" font-size="3.00" text-anchor="start" fill="#6b4a2b">Schlitten W1–W5 (Seite 3): Wange W2 unter die Deckplatte W1 und die Klingenwange W5 hinten an W1 leimen und schrauben, so dass der Schlitten spielfrei auf der</text>
+<text x="22.00" y="86.40" font-size="3.00" text-anchor="start" fill="#6b4a2b">Schiene gleitet (0.3 mm je Seite). W5 und W3 zusammen für Schrauben und Stifte bohren (Seite 3), W5 innen senken, so dass die Schraubenköpfe bündig sind, Stifte</text>
+<text x="22.00" y="90.00" font-size="3.00" text-anchor="start" fill="#6b4a2b">in W5 einleimen. Knauf W4 aufleimen.</text>
+<circle cx="16" cy="94.60" r="3" fill="#7a3e12"/>
+<text x="16.00" y="95.80" font-size="3.40" text-anchor="middle" fill="#fff" font-weight="bold">4</text>
+<text x="22.00" y="95.80" font-size="3.00" text-anchor="start" fill="#1a1a1a">Put the rail with the carriage on the base, back face of the rail 12.6 mm in front of the groove centre. Screw on the pivot cheeks P (bolt M10) and the fork</text>
+<text x="22.00" y="99.40" font-size="3.00" text-anchor="start" fill="#1a1a1a">blocks F, the rail must drop into the fork without play sideways. Screw the handle H on the right end.</text>
+<text x="22.00" y="103.50" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Weka reli pamoja na gari juu ya ubao, uso wa nyuma wa reli mm 12.6 mbele ya katikati ya mfereji. Funga vishikio P (bolti M10) na vizuizi F; reli iingie kwenye</text>
+<text x="22.00" y="107.10" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">uma bila kulegea. Funga mshiko H.</text>
+<text x="22.00" y="111.20" font-size="3.00" text-anchor="start" fill="#6b4a2b">Schiene mit Schlitten auflegen, Rückseite der Schiene 12.6 mm vor Mitte Nut. Lagerwangen P (M10) und Fanggabel F anschrauben, die Schiene muss seitlich</text>
+<text x="22.00" y="114.80" font-size="3.00" text-anchor="start" fill="#6b4a2b">spielfrei in die Gabel fallen. Griff H rechts aufschrauben.</text>
+<circle cx="16" cy="119.40" r="3" fill="#7a3e12"/>
+<text x="16.00" y="120.60" font-size="3.40" text-anchor="middle" fill="#fff" font-weight="bold">5</text>
+<text x="22.00" y="120.60" font-size="3.00" text-anchor="start" fill="#1a1a1a">Test cut: lay cardboard over the whole length, lower the rail, pull the carriage. The cut in the strip O is now the line y = 0. Screw the side stop S at x = 0</text>
+<text x="22.00" y="124.20" font-size="3.00" text-anchor="start" fill="#1a1a1a">exactly square to this line.</text>
+<text x="22.00" y="128.30" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Jaribio: weka kadibodi urefu wote, shusha reli, vuta gari. Mkato kwenye O sasa ni mstari y = 0. Funga kizuizi S kwenye x = 0 kwa pembemraba kamili na mstari</text>
+<text x="22.00" y="131.90" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">huu.</text>
+<text x="22.00" y="136.00" font-size="3.00" text-anchor="start" fill="#6b4a2b">Probeschnitt: Karton über die ganze Länge legen, Schiene ab, Schlitten durchziehen. Der Schnitt in O ist jetzt die Linie y = 0. Seitenanschlag S bei x = 0 genau</text>
+<text x="22.00" y="139.60" font-size="3.00" text-anchor="start" fill="#6b4a2b">rechtwinklig dazu anschrauben.</text>
+<circle cx="16" cy="144.20" r="3" fill="#7a3e12"/>
+<text x="16.00" y="145.40" font-size="3.40" text-anchor="middle" fill="#fff" font-weight="bold">6</text>
+<text x="22.00" y="145.40" font-size="3.00" text-anchor="start" fill="#1a1a1a">Holes: measure every hole from the line y = 0 (table on page 2), mark with a square, drill Ø 12 on the pillar drill. Write the size next to each hole. Pegs D: Ø</text>
+<text x="22.00" y="149.00" font-size="3.00" text-anchor="start" fill="#1a1a1a">12 × 45, ends chamfered.</text>
+<text x="22.00" y="153.10" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Matundu: pima kila tundu kutoka mstari y = 0 (jedwali ukurasa 2), weka alama, toboa Ø 12 kwa mashine ya kutoboa. Andika kipimo karibu na kila tundu. Vigingi D:</text>
+<text x="22.00" y="156.70" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Ø 12 × 45.</text>
+<text x="22.00" y="160.80" font-size="3.00" text-anchor="start" fill="#6b4a2b">Löcher: jedes Loch von der Linie y = 0 aus anreißen (Tabelle Seite 2), auf der Ständerbohrmaschine Ø 12 bohren, Maß daneben schreiben. Stifte D: Ø 12 × 45,</text>
+<text x="22.00" y="164.40" font-size="3.00" text-anchor="start" fill="#6b4a2b">Enden angefast.</text>
+<circle cx="16" cy="169.00" r="3" fill="#7a3e12"/>
+<text x="16.00" y="170.20" font-size="3.40" text-anchor="middle" fill="#fff" font-weight="bold">7</text>
+<text x="22.00" y="170.20" font-size="3.00" text-anchor="start" fill="#1a1a1a">Check: cut one strip at every size and measure it. If all sizes are too long or too short by the same amount, plane the front face of the fence A or glue on a</text>
+<text x="22.00" y="173.80" font-size="3.00" text-anchor="start" fill="#1a1a1a">veneer.</text>
+<text x="22.00" y="177.90" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">Hakiki: kata kipande kimoja kwa kila kipimo na kipime. Vipimo vyote vikizidi au vikipungua kwa kiasi kilekile, randa uso wa mbele wa A au gundisha kipande</text>
+<text x="22.00" y="181.50" font-size="3.00" text-anchor="start" fill="#3d3d3d" font-style="italic">chembamba.</text>
+<text x="22.00" y="185.60" font-size="3.00" text-anchor="start" fill="#6b4a2b">Prüfen: bei jedem Maß einen Streifen schneiden und messen. Sind alle um denselben Betrag zu lang oder zu kurz, die Vorderseite der Anschlagleiste A abhobeln</text>
+<text x="22.00" y="189.20" font-size="3.00" text-anchor="start" fill="#6b4a2b">oder ein Furnier aufleimen.</text>
+</svg>
