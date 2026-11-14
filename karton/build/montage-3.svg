@@ -97,27 +97,42 @@
 <text x="32.06" y="75.83" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">E</text>
 <circle cx="105.00" cy="72.18" r="3.2" fill="#ffffff" stroke="#7a3e12" stroke-width="0.4"/>
 <text x="105.00" y="73.48" font-size="3.60" text-anchor="middle" fill="#7a3e12" font-weight="bold">U</text>
-<text x="105.00" y="103.00" font-size="3.00" text-anchor="middle" fill="#555">outer box: no angles, glue on the whole surface</text>
-<text x="105.00" y="106.50" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">sanduku la nje: bila pembe, gundi eneo lote</text>
-<text x="105.00" y="110.00" font-size="3.00" text-anchor="middle" fill="#6b4a2b">Außenkasten: ohne Winkel, vollflächig kleben</text>
+<text x="105.00" y="103.00" font-size="3.00" text-anchor="middle" fill="#555">outer box: no angles, glue in thin lines</text>
+<text x="105.00" y="106.50" font-size="3.00" text-anchor="middle" fill="#555" font-style="italic">sanduku la nje: bila pembe, gundi kwa mistari myembamba</text>
+<text x="105.00" y="110.00" font-size="3.00" text-anchor="middle" fill="#6b4a2b">Außenkasten: ohne Winkel, Leim in Streifen</text>
 <circle cx="19" cy="118.70" r="3.4" fill="#7a3e12"/>
-<text x="19.00" y="120.00" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">6</text>
-<text x="26.00" y="120.00" font-size="3.50" text-anchor="start" fill="#1a1a1a">Outer box, no angles needed: glue the outer bottom U under the row, then the outer end walls E to</text>
-<text x="26.00" y="124.40" font-size="3.50" text-anchor="start" fill="#1a1a1a">both ends, then the outer long walls A over everything. Spray each part on the whole surface, align</text>
-<text x="26.00" y="128.80" font-size="3.50" text-anchor="start" fill="#1a1a1a">the top edges and press well.</text>
-<text x="26.00" y="133.80" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Sanduku la nje, halihitaji pembe: gundisha kitako cha nje U chini ya mstari, kisha kuta za mwisho za</text>
-<text x="26.00" y="138.20" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">nje E pande zote mbili, kisha kuta ndefu za nje A juu ya vyote. Nyunyiza kila kipande eneo lote,</text>
-<text x="26.00" y="142.60" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">linganisha kingo za juu na bonyeza vizuri.</text>
-<text x="26.00" y="147.60" font-size="3.50" text-anchor="start" fill="#6b4a2b">Außenkasten, ohne Winkel: zuerst den Außenboden U unter die Reihe kleben, dann die Außen-Stirnwände</text>
-<text x="26.00" y="152.00" font-size="3.50" text-anchor="start" fill="#6b4a2b">E an beide Enden, zuletzt die Außen-Längsseiten A über alles. Jedes Teil vollflächig einsprühen,</text>
-<text x="26.00" y="156.40" font-size="3.50" text-anchor="start" fill="#6b4a2b">Oberkanten bündig ausrichten und gut andrücken.</text>
-<circle cx="19" cy="162.70" r="3.4" fill="#7a3e12"/>
-<text x="19.00" y="164.00" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">7</text>
-<text x="26.00" y="164.00" font-size="3.50" text-anchor="start" fill="#1a1a1a">Use spray adhesive only outdoors or with open windows, and cover the table with newspaper. Let the</text>
-<text x="26.00" y="168.40" font-size="3.50" text-anchor="start" fill="#1a1a1a">box dry for a few hours before use.</text>
-<text x="26.00" y="173.40" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Tumia gundi ya kunyunyiza nje tu au madirisha yakiwa wazi, na funika meza kwa magazeti. Acha sanduku</text>
-<text x="26.00" y="177.80" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">likauke kwa saa chache kabla ya kulitumia.</text>
-<text x="26.00" y="182.80" font-size="3.50" text-anchor="start" fill="#6b4a2b">Sprühkleber nur im Freien oder bei offenem Fenster verwenden und den Tisch mit Zeitung abdecken. Den</text>
-<text x="26.00" y="187.20" font-size="3.50" text-anchor="start" fill="#6b4a2b">Kasten vor dem Gebrauch einige Stunden trocknen lassen.</text>
+<text x="19.00" y="120.00" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">5</text>
+<text x="26.00" y="120.00" font-size="3.50" text-anchor="start" fill="#1a1a1a">Glue the inner boxes together in a row, 1 to 5. Put thin lines of white glue on the end walls that</text>
+<text x="26.00" y="124.40" font-size="3.50" text-anchor="start" fill="#1a1a1a">touch, align bottoms and top edges, press and hold for a minute.</text>
+<text x="26.00" y="129.40" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Gundisha masanduku ya ndani pamoja kwa mstari, 1 hadi 5. Weka mistari myembamba ya gundi nyeupe</text>
+<text x="26.00" y="133.80" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">kwenye kuta za mwisho zinazogusana, linganisha vitako na kingo za juu, bonyeza na ushikilie kwa</text>
+<text x="26.00" y="138.20" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">dakika moja.</text>
+<text x="26.00" y="143.20" font-size="3.50" text-anchor="start" fill="#6b4a2b">Die Innenkästen in einer Reihe aneinanderkleben, 1 bis 5. Auf die Stirnwände, die sich berühren,</text>
+<text x="26.00" y="147.60" font-size="3.50" text-anchor="start" fill="#6b4a2b">dünne Streifen Weißleim geben, Böden und Oberkanten bündig ausrichten, andrücken und eine Minute</text>
+<text x="26.00" y="152.00" font-size="3.50" text-anchor="start" fill="#6b4a2b">halten.</text>
+<circle cx="19" cy="158.30" r="3.4" fill="#7a3e12"/>
+<text x="19.00" y="159.60" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">6</text>
+<text x="26.00" y="159.60" font-size="3.50" text-anchor="start" fill="#1a1a1a">Outer box, no angles needed: glue the outer bottom U under the row, then the outer end walls E to</text>
+<text x="26.00" y="164.00" font-size="3.50" text-anchor="start" fill="#1a1a1a">both ends, then the outer long walls A over everything. Put undiluted white glue in thin lines on</text>
+<text x="26.00" y="168.40" font-size="3.50" text-anchor="start" fill="#1a1a1a">each part, not on the whole surface, so the cardboard does not get wet. Align the top edges, press</text>
+<text x="26.00" y="172.80" font-size="3.50" text-anchor="start" fill="#1a1a1a">well and put weights on the box while it dries.</text>
+<text x="26.00" y="177.80" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Sanduku la nje, halihitaji pembe: gundisha kitako cha nje U chini ya mstari, kisha kuta za mwisho za</text>
+<text x="26.00" y="182.20" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">nje E pande zote mbili, kisha kuta ndefu za nje A juu ya vyote. Weka gundi nyeupe isiyochanganywa na</text>
+<text x="26.00" y="186.60" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">maji kwa mistari myembamba kwenye kila kipande, si eneo lote, ili kadibodi isilowe. Linganisha kingo</text>
+<text x="26.00" y="191.00" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">za juu, bonyeza vizuri na weka vitu vizito juu ya sanduku likikauka.</text>
+<text x="26.00" y="196.00" font-size="3.50" text-anchor="start" fill="#6b4a2b">Außenkasten, ohne Winkel: zuerst den Außenboden U unter die Reihe kleben, dann die Außen-Stirnwände</text>
+<text x="26.00" y="200.40" font-size="3.50" text-anchor="start" fill="#6b4a2b">E an beide Enden, zuletzt die Außen-Längsseiten A über alles. Unverdünnten Weißleim in dünnen</text>
+<text x="26.00" y="204.80" font-size="3.50" text-anchor="start" fill="#6b4a2b">Streifen auf jedes Teil geben, nicht vollflächig, damit die Pappe nicht durchfeuchtet. Oberkanten</text>
+<text x="26.00" y="209.20" font-size="3.50" text-anchor="start" fill="#6b4a2b">bündig ausrichten, gut andrücken und den Kasten beim Trocknen beschweren.</text>
+<circle cx="19" cy="215.50" r="3.4" fill="#7a3e12"/>
+<text x="19.00" y="216.80" font-size="4.00" text-anchor="middle" fill="#fff" font-weight="bold">7</text>
+<text x="26.00" y="216.80" font-size="3.50" text-anchor="start" fill="#1a1a1a">Cover the table with newspaper. Wipe off wet glue at once with a damp cloth; dry glue hardly comes</text>
+<text x="26.00" y="221.20" font-size="3.50" text-anchor="start" fill="#1a1a1a">off. Let the glue set before each next step, and let the finished box dry overnight before use.</text>
+<text x="26.00" y="226.20" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">Funika meza kwa magazeti. Futa gundi mbichi mara moja kwa kitambaa chenye unyevu; gundi iliyokauka</text>
+<text x="26.00" y="230.60" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">haitoki kwa urahisi. Acha gundi ishike kabla ya kila hatua inayofuata, na acha sanduku</text>
+<text x="26.00" y="235.00" font-size="3.50" text-anchor="start" fill="#3d3d3d" font-style="italic">lililokamilika likauke usiku mzima kabla ya kulitumia.</text>
+<text x="26.00" y="240.00" font-size="3.50" text-anchor="start" fill="#6b4a2b">Den Tisch mit Zeitung abdecken. Nassen Leim sofort mit einem feuchten Tuch abwischen, trockener geht</text>
+<text x="26.00" y="244.40" font-size="3.50" text-anchor="start" fill="#6b4a2b">kaum noch ab. Vor jedem nächsten Schritt den Leim anziehen lassen und den fertigen Kasten über Nacht</text>
+<text x="26.00" y="248.80" font-size="3.50" text-anchor="start" fill="#6b4a2b">trocknen lassen.</text>
 <text x="15.00" y="287.00" font-size="3.00" text-anchor="start" fill="#666">Kiswahili text: please have it checked locally · Tafadhali kagueni maandishi ya Kiswahili.</text>
 </svg>

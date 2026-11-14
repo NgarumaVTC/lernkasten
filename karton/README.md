@@ -1,7 +1,7 @@
 # Lernkasten DIN A7 aus Wellpappe – NgarumaVTC
 
 Leitner-Lernkasten für DIN-A7-Karteikarten (105 × 74 mm, quer stehend) mit fünf Fächern aus
-brauner Wellpappe, geklebt mit Sprühkleber und Winkeln aus Kopierpapier (80 g/m², A4).
+brauner Wellpappe, geklebt mit Weißleim (Holzleim) und Winkeln aus Kopierpapier (80 g/m², A4).
 Die Winkel übertragen nur Zug und Schub, dafür reicht normales Papier.
 
 ## Aufbau
@@ -10,8 +10,9 @@ Die Winkel übertragen nur Zug und Schub, dafür reicht normales Papier.
    2 Längsseiten (sie stehen auf dem Boden) und 2 Stirnwände (zwischen den Längsseiten).
    Die Kanten werden **außen** mit Papierwinkeln verklebt: 4 senkrechte Ecken und 4 Bodenkanten.
 2. Die Innenkästen werden in einer Reihe **aneinandergeklebt**. Zwei Stirnwände nebeneinander ergeben die Trennwand.
-3. Der **Außenkasten** hat keine Winkel. Er wird flächig auf den Block gesprüht, zuerst der Boden unter den Block,
-   dann die Stirnwände an die Enden, zuletzt die Längsseiten über alles.
+3. Der **Außenkasten** hat keine Winkel. Er wird mit Weißleim in Streifen auf den Block geklebt, nicht vollflächig,
+   damit die Pappe nicht durchfeuchtet: zuerst der Boden unter den Block, dann die Stirnwände an die Enden,
+   zuletzt die Längsseiten über alles. Beim Trocknen beschweren.
 
 So verdecken die Nachbarkästen und der Außenkasten die Papierwinkel weitgehend.
 In allen Wänden laufen die Wellen **senkrecht**, von oben sieht man also in die Wellen. In den Böden laufen sie längs.

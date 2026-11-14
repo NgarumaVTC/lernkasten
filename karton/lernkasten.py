@@ -13,7 +13,7 @@ Aufbau:
      Je Kasten: Boden, 2 Längsseiten (stehen auf dem Boden), 2 Stirnwände
      (zwischen den Längsseiten). Kanten außen mit Papierwinkeln verklebt.
   2. Die fünf Innenkästen aneinander geklebt (Trennwand = 2 Stirnwände).
-  3. Außenkasten ohne Winkel flächig auf den Block gesprüht: Boden unter
+  3. Außenkasten ohne Winkel mit Weißleim in Streifen auf den Block: Boden unter
      den Block, Stirnwände an die Enden, Längsseiten über alles.
 
 Wellen in allen Wänden senkrecht (von oben sieht man in die Wellen), in den
@@ -797,8 +797,12 @@ TOOLS = [   # (englisch, kiswahili, deutsch)
      "Stahllineal, Winkel, Bleistift, Schneidunterlage"),
     ("Bone folder or blunt knife back for folding", "Kifaa cha kukunja au mgongo butu wa kisu",
      "Falzbein oder stumpfer Messerrücken zum Falzen"),
-    ("Spray adhesive, newspaper to cover the table", "Gundi ya kunyunyiza, magazeti ya kufunika meza",
-     "Sprühkleber, Zeitungspapier zum Abdecken des Tisches"),
+    ("White glue (PVA wood glue), small brush, newspaper to cover the table",
+     "Gundi nyeupe (gundi ya mbao), brashi ndogo, magazeti ya kufunika meza",
+     "Weißleim (Holzleim), kleiner Pinsel, Zeitungspapier zum Abdecken des Tisches"),
+    ("Weights (books, bricks) or clothes pegs for pressing",
+     "Vitu vizito (vitabu, matofali) au vibanio vya nguo vya kubana",
+     "Gewichte (Bücher, Ziegel) oder Wäscheklammern zum Andrücken"),
     ("Corrugated cardboard, copy paper A4 80 g",
      "Kadibodi ya mawimbi ya kahawia, karatasi ya kawaida A4 80 g",
      "Wellpappe, Kopierpapier A4 80 g"),
@@ -827,42 +831,56 @@ def steps():
          % (2 * ANGLE_LEG, ANGLE_LEG)),
         ("Build one inner box: put the two long walls L on the bottom B, the two end walls S "
          "stand between them. Glue the paper angles on the outside: first the 4 bottom edges, "
-         "then the 4 upright corners. Spray the angle, wait a moment, press it on firmly.",
+         "then the 4 upright corners. Thin the white glue with a little water, brush it thinly "
+         "onto the angle, press it on firmly and smooth it with the bone folder.",
          "Jenga sanduku moja la ndani: weka kuta mbili ndefu L juu ya kitako B, kuta mbili za "
          "mwisho S zinasimama katikati yake. Gundisha pembe za karatasi kwa nje: kwanza kingo 4 za "
-         "chini, kisha pembe 4 zilizosimama. Nyunyiza gundi kwenye pembe, subiri kidogo, kisha "
-         "ibonyeze kwa nguvu.",
+         "chini, kisha pembe 4 zilizosimama. Changanya gundi nyeupe na maji kidogo, ipake kwa "
+         "brashi kwa safu nyembamba kwenye pembe, ibonyeze kwa nguvu na uilainishe kwa kifaa "
+         "cha kukunja.",
          "Einen Innenkasten bauen: Die beiden Längsseiten L auf den Boden B stellen, die beiden "
          "Stirnwände S stehen dazwischen. Die Papierwinkel außen aufkleben, zuerst die 4 "
-         "Bodenkanten, dann die 4 senkrechten Ecken. Winkel einsprühen, kurz ablüften lassen, "
-         "fest andrücken."),
+         "Bodenkanten, dann die 4 senkrechten Ecken. Weißleim mit wenig Wasser verdünnen, dünn "
+         "mit dem Pinsel auf den Winkel streichen, fest andrücken und mit dem Falzbein "
+         "glattstreichen."),
         ("Make all five inner boxes 1 to 5 this way. Each box must be square and a card must "
          "fit in easily. The number of the box is the number on L and B.",
          "Tengeneza masanduku yote matano ya ndani 1 hadi 5 kwa njia hii. Kila sanduku liwe la "
          "mraba na kadi iingie kwa urahisi. Namba ya sanduku ni namba iliyo kwenye L na B.",
          "So alle fünf Innenkästen 1 bis 5 bauen. Jeder Kasten muss rechtwinklig sein, und eine "
          "Karte muss leicht hineinpassen. Die Nummer des Kastens ist die Nummer auf L und B."),
-        ("Glue the inner boxes together in a row, 1 to 5. Spray the end walls that touch, "
-         "align bottoms and top edges and press.",
-         "Gundisha masanduku ya ndani pamoja kwa mstari, 1 hadi 5. Nyunyiza gundi kwenye kuta "
-         "za mwisho zinazogusana, linganisha vitako na kingo za juu, kisha bonyeza.",
-         "Die Innenkästen in einer Reihe aneinanderkleben, 1 bis 5. Die Stirnwände einsprühen, "
-         "die sich berühren, Böden und Oberkanten bündig ausrichten und andrücken."),
+        ("Glue the inner boxes together in a row, 1 to 5. Put thin lines of white glue on the "
+         "end walls that touch, align bottoms and top edges, press and hold for a minute.",
+         "Gundisha masanduku ya ndani pamoja kwa mstari, 1 hadi 5. Weka mistari myembamba ya "
+         "gundi nyeupe kwenye kuta za mwisho zinazogusana, linganisha vitako na kingo za juu, "
+         "bonyeza na ushikilie kwa dakika moja.",
+         "Die Innenkästen in einer Reihe aneinanderkleben, 1 bis 5. Auf die Stirnwände, die "
+         "sich berühren, dünne Streifen Weißleim geben, Böden und Oberkanten bündig "
+         "ausrichten, andrücken und eine Minute halten."),
         ("Outer box, no angles needed: glue the outer bottom U under the row, then the outer "
-         "end walls E to both ends, then the outer long walls A over everything. Spray each "
-         "part on the whole surface, align the top edges and press well.",
+         "end walls E to both ends, then the outer long walls A over everything. Put undiluted "
+         "white glue in thin lines on each part, not on the whole surface, so the cardboard "
+         "does not get wet. Align the top edges, press well and put weights on the box while "
+         "it dries.",
          "Sanduku la nje, halihitaji pembe: gundisha kitako cha nje U chini ya mstari, kisha kuta "
-         "za mwisho za nje E pande zote mbili, kisha kuta ndefu za nje A juu ya vyote. Nyunyiza "
-         "kila kipande eneo lote, linganisha kingo za juu na bonyeza vizuri.",
+         "za mwisho za nje E pande zote mbili, kisha kuta ndefu za nje A juu ya vyote. Weka "
+         "gundi nyeupe isiyochanganywa na maji kwa mistari myembamba kwenye kila kipande, si "
+         "eneo lote, ili kadibodi isilowe. Linganisha kingo za juu, bonyeza vizuri na weka "
+         "vitu vizito juu ya sanduku likikauka.",
          "Außenkasten, ohne Winkel: zuerst den Außenboden U unter die Reihe kleben, dann die "
-         "Außen-Stirnwände E an beide Enden, zuletzt die Außen-Längsseiten A über alles. Jedes "
-         "Teil vollflächig einsprühen, Oberkanten bündig ausrichten und gut andrücken."),
-        ("Use spray adhesive only outdoors or with open windows, and cover the table with "
-         "newspaper. Let the box dry for a few hours before use.",
-         "Tumia gundi ya kunyunyiza nje tu au madirisha yakiwa wazi, na funika meza kwa magazeti. "
-         "Acha sanduku likauke kwa saa chache kabla ya kulitumia.",
-         "Sprühkleber nur im Freien oder bei offenem Fenster verwenden und den Tisch mit Zeitung "
-         "abdecken. Den Kasten vor dem Gebrauch einige Stunden trocknen lassen."),
+         "Außen-Stirnwände E an beide Enden, zuletzt die Außen-Längsseiten A über alles. "
+         "Unverdünnten Weißleim in dünnen Streifen auf jedes Teil geben, nicht vollflächig, "
+         "damit die Pappe nicht durchfeuchtet. Oberkanten bündig ausrichten, gut andrücken "
+         "und den Kasten beim Trocknen beschweren."),
+        ("Cover the table with newspaper. Wipe off wet glue at once with a damp cloth; dry "
+         "glue hardly comes off. Let the glue set before each next step, and let the finished "
+         "box dry overnight before use.",
+         "Funika meza kwa magazeti. Futa gundi mbichi mara moja kwa kitambaa chenye unyevu; "
+         "gundi iliyokauka haitoki kwa urahisi. Acha gundi ishike kabla ya kila hatua "
+         "inayofuata, na acha sanduku lililokamilika likauke usiku mzima kabla ya kulitumia.",
+         "Den Tisch mit Zeitung abdecken. Nassen Leim sofort mit einem feuchten Tuch "
+         "abwischen, trockener geht kaum noch ab. Vor jedem nächsten Schritt den Leim anziehen "
+         "lassen und den fertigen Kasten über Nacht trocknen lassen."),
     ]
 
 
@@ -1023,9 +1041,9 @@ def montage(prof, asm, strips):
         else:
             ex.append((None, s2, color(k)))
     b = iso_svg(ex, 15, 14, 180, 84)
-    b += tri(105, 103, "outer box: no angles, glue on the whole surface",
-             "sanduku la nje: bila pembe, gundi eneo lote",
-             "Außenkasten: ohne Winkel, vollflächig kleben", anchor="middle")
+    b += tri(105, 103, "outer box: no angles, glue in thin lines",
+             "sanduku la nje: bila pembe, gundi kwa mistari myembamba",
+             "Außenkasten: ohne Winkel, Leim in Streifen", anchor="middle")
     rest, first, y = st[n2:], n2 + 1, 120
     while rest:
         b, y, n = write_steps(b, rest, first, y)
@@ -1126,7 +1144,7 @@ def main():
     log("  %d Kästen pro Bogen (Ausnutzung %.0f %%)" % (n, used * 100))
     log("  %d Kästen + %.0f %% = %d → %d Bögen %.0f × %.0f mm"
         % (N_BOXES, SCRAP * 100, need, boards, BOARD[0], BOARD[1]))
-    log("  Sprühklebefläche je Kasten ca. %.3f m² (ohne Winkel)" % (glue / 1e6))
+    log("  Klebefläche je Kasten ca. %.3f m² (ohne Winkel)" % (glue / 1e6))
     bogen_svg(board_faces, n, boards)
 
     log("— Zuschnitt ein Satz —")
@@ -1142,7 +1160,7 @@ def main():
         "Wellpappe: %d Bögen %.0f × %.0f mm (%d Kästen je Bogen, Ausnutzung %.0f %%)"
         % (boards, BOARD[0], BOARD[1], n, used * 100),
         "Kopierpapier 80 g: %d Blatt A4" % int(math.ceil(need * sheets)),
-        "Sprühkleber: Klebefläche ca. %.2f m² je Kasten, %.0f m² gesamt"
+        "Weißleim (Holzleim): Klebefläche ca. %.2f m² je Kasten, %.0f m² gesamt"
         % (glue / 1e6, need * glue / 1e6),
     ]
     zuschnitt(prof, set_faces, bb.XMax, bb.YMax, strips, board_info)
