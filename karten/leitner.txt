@@ -1,0 +1,46 @@
+#separator:tab
+#html:true
+#notetype:Basic
+#deck:Lernkasten::Leitner-Prinzip
+#columns:Vorderseite	Rückseite	Tags
+#tags column:3
+Wer hat sich das Lernen mit dem Lernkasten ausgedacht?	Sebastian Leitner.<br>Darum heißt es <b>Leitner-Prinzip</b>.	Leitner
+Was ist die Grundidee des Leitner-Prinzips?	Was du <b>noch nicht</b> kannst, übst du <b>oft</b>.<br>Was du <b>schon</b> kannst, übst du <b>selten</b>.	Leitner
+Wie viele Fächer hat unser Lernkasten?	<b>Fünf.</b><br>Fach 1 ist das schmalste, Fach 5 das breiteste.	Leitner
+Was steht auf der Vorderseite einer Lernkarte?	Die <b>Frage</b>.	Leitner
+Was steht auf der Rückseite einer Lernkarte?	Die <b>Antwort</b>.	Leitner
+Wie viele Fragen gehören auf eine Karte?	Genau <b>eine</b>.	Leitner
+Was schreibst du klein oben in die Ecke einer Karte?	Das <b>Schulfach</b>, zum Beispiel „E“ für Englisch oder „Bio“.	Leitner
+Warum schreibst du deine Karten selbst?	Schon beim Schreiben lernst du ein gutes Stück.	Leitner
+Wohin kommen neue Karten?	<b>Hinten</b> in <b>Fach 1</b>.	Leitner
+Von wo nimmst du eine Karte zum Lernen?	Immer <b>von vorne</b> aus dem Fach.	Leitner
+Du hast eine Karte gewusst. Wohin kommt sie?	<b>Ein Fach weiter</b>, dort hinten hinein.	Leitner
+Du hast eine Karte nicht gewusst. Wohin kommt sie?	<b>Zurück in Fach 1</b>, egal aus welchem Fach sie kommt.	Leitner
+Eine Karte aus Fach 4 war falsch. Wohin kommt sie?	In <b>Fach 1</b>.<br>Nicht in Fach 3!	Leitner
+Fast richtig, nur ein Buchstabe falsch.<br>Gewusst oder nicht gewusst?	<b>Nicht gewusst.</b><br>Sei ehrlich zu dir selbst.	Leitner
+Geraten und zufällig richtig.<br>Gewusst oder nicht gewusst?	<b>Nicht gewusst.</b>	Leitner
+Warum schreibst du Vokabeln beim Lernen auf, statt sie nur zu sagen?	Dann merkst du <b>Rechtschreibfehler</b>.	Leitner
+Wie oft lernst du Fach 1?	An <b>jedem Lerntag</b>.	Leitner
+Wie oft lernst du Fach 2?	<b>Zweimal</b> in der Woche.	Leitner
+Wie oft lernst du Fach 3?	<b>Einmal</b> in der Woche.	Leitner
+Wie oft lernst du Fach 4?	Alle <b>zwei Wochen</b>.	Leitner
+Wie oft lernst du Fach 5?	<b>Einmal im Monat</b>.	Leitner
+Ein Fach ist fast voll, aber heute nicht dran. Was tust du?	Du lernst es <b>trotzdem</b>, von vorne, bis wieder Platz ist.	Leitner
+Wie lange lernst du am Tag mit dem Lernkasten?	<b>10 bis 15 Minuten.</b>	Leitner
+Was ist besser: jeden Tag kurz oder einmal in der Woche lang?	<b>Jeden Tag kurz.</b><br>Dein Gehirn merkt sich Dinge besser, wenn sie oft kurz wiederkommen.	Leitner
+Fach 1 ist voll. Was tust du?	<b>Keine neuen Karten!</b><br>Erst Fach 1 lernen, bis wieder Platz ist.	Leitner
+Wie viele neue Karten schreibst du höchstens an einem Tag?	<b>5 bis 10.</b>	Leitner
+Wie viele Karten sollten meistens in Fach 1 sein?	<b>20 bis 30.</b><br>Die 100 Plätze sind nur für den Notfall.	Leitner
+Eine Karte ist immer wieder falsch. Was hilft?	Teil sie in <b>mehrere kleine Karten</b> auf.	Leitner
+Du hast eine Karte aus Fach 5 gewusst. Was passiert mit ihr?	<b>Fertig!</b><br>Sie kommt aus dem Kasten heraus. Heb sie mit einem Gummiband oder in einem Umschlag auf.	Leitner
+Wie oft hast du eine fertige Karte auf Anhieb gewusst?	<b>Fünfmal</b> hintereinander, in jedem Fach einmal.	Leitner
+Was machst du vor einer Klassenarbeit mit deinen fertigen Karten?	Du gehst sie <b>noch einmal durch</b>.<br>Was du nicht mehr weißt, kommt wieder in Fach 1.	Leitner
+Brauchst du für jedes Schulfach einen eigenen Lernkasten?	<b>Nein</b>, ein Kasten reicht.<br>Kartenfarben oder ein Kürzel in der Ecke helfen beim Sortieren.	Leitner
+Was hast du immer im Federmäppchen?	<b>10 bis 20 leere Karten</b> mit einem Gummiband.	Leitner
+Woran merkst du im Unterricht, dass du eine Karte schreiben solltest?	„Das ist wichtig!“<br>Ein neues Wort, eine Regel oder Formel.<br>Etwas ist an der Tafel eingerahmt.	Leitner
+Im Unterricht reicht die Zeit nicht für die Antwort. Was tust du?	Nur die <b>Frage</b> aufschreiben.<br>Die Antwort schreibst du zu Hause dazu.	Leitner
+Du lernst Karten im Bus. Wie viele Stapel machst du?	<b>Zwei:</b> „gewusst“ und „nicht gewusst“, jeder mit eigenem Gummiband.	Leitner
+Was ist eine ?-Karte?	Eine Karte, deren <b>Antwort du noch nicht weißt</b>.<br>Sie kommt erst in den Kasten, wenn die Antwort drauf steht.	Leitner
+Wo suchst du zuerst die Antwort auf eine ?-Karte?	In <b>Heft und Schulbuch</b>.<br>Dann Lehrerin oder Lehrer, Nachhilfe, zuletzt KI.	Leitner
+Worauf achtest du, wenn du eine KI fragst?	Eine KI <b>kann sich irren</b>.<br>Prüf die Antwort mit dem Buch und schreib sie in eigenen Worten auf.	Leitner
+Eine Vokabelkarte hat Fach 5 geschafft. Was kannst du noch tun?	Karte <b>umdrehen</b> und die andere Richtung ab Fach 1 lernen.<br>Ein „R“ in die Ecke schreiben.	Leitner

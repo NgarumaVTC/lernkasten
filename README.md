@@ -8,3 +8,7 @@ Leitner-Lernkasten mit fünf Fächern für DIN-A7-Karteikarten, Serie von 120 St
 ## Anleitung für die Schülerinnen
 
 [`lernkasten_anleitung.org`](lernkasten_anleitung.org): wie man mit dem Lernkasten lernt (Leitner-Prinzip, Lernplan, Blankokarten im Unterricht, offene Fragen klären), in einfacher Sprache ab Klasse 5. PDF in [`build/lernkasten_anleitung.pdf`](build/lernkasten_anleitung.pdf), gebaut mit `./build_anleitung.sh`.
+
+## Lernkarten
+
+[`karten/`](karten/README.md): Lernkarten DIN A7 doppelseitig auf A4 zum Ausschneiden, Inhalt als Anki-Textdatei. Dabei 40 Karten zum Leitner-Prinzip und ein Bogen Blankokarten.
