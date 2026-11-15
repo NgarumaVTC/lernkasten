@@ -1,0 +1,282 @@
+#+TITLE: So lernst du mit dem Lernkasten
+#+SUBTITLE: Eine Anleitung für Schülerinnen und Schüler ab Klasse 5
+#+LANGUAGE: de
+#+OPTIONS: toc:nil num:nil author:nil date:nil
+#+LATEX_CLASS_OPTIONS: [a4paper,11pt]
+#+LATEX_HEADER: \usepackage[ngerman]{babel}
+#+LATEX_HEADER: \usepackage{lmodern}
+#+LATEX_HEADER: \usepackage{fancyhdr,lastpage}
+#+LATEX_HEADER: \InputIfFileExists{gitinfo.tex}{}{\newcommand\githash{ohne git}\newcommand\gitdate{\today}}
+#+LATEX_HEADER: \fancypagestyle{plain}{\fancyhf{}\renewcommand\headrulewidth{0pt}\fancyfoot[L]{\footnotesize\texttt{\jobname.org}}\fancyfoot[C]{\footnotesize\texttt{\githash}, \gitdate}\fancyfoot[R]{\footnotesize Seite \thepage/\pageref{LastPage}}}
+#+LATEX_HEADER: \pagestyle{plain}
+
+* Was ist ein Lernkasten?
+
+Ein Lernkasten ist eine Kiste für Karteikarten. Er hat fünf Fächer. Das
+erste Fach ist schmal, das letzte ist breit.
+
+Die Idee stammt von Sebastian Leitner. Er hat sie vor etwa 50 Jahren
+aufgeschrieben. Man nennt sie deshalb das *Leitner-Prinzip*.
+
+Das Prinzip ist einfach:
+
+- Was du *noch nicht* kannst, übst du *oft*.
+- Was du *schon* kannst, übst du *selten*.
+
+So verschwendest du keine Zeit mit Dingen, die du längst weißt. Und die
+schwierigen Sachen kommen so lange wieder, bis sie sitzen.
+
+Unser Kasten ist für Karten in der Größe DIN A7 gemacht (10,5 cm × 7,4 cm).
+So viele Karten passen ungefähr hinein:
+
+| Fach | Platz für etwa |
+|------+----------------|
+|    1 | 100 Karten     |
+|    2 | 160 Karten     |
+|    3 | 240 Karten     |
+|    4 | 360 Karten     |
+|    5 | 540 Karten     |
+
+* Karten schreiben
+
+- Auf die *Vorderseite* kommt die Frage.
+- Auf die *Rückseite* kommt die Antwort.
+- *Eine* Frage pro Karte. Nicht drei Fragen auf eine Karte quetschen.
+- Kurz und deutlich schreiben. Lieber zwei kleine Karten als eine volle.
+- Oben in die Ecke schreibst du klein das Schulfach, zum Beispiel „E“ für
+  Englisch oder „Bio“.
+
+Beispiele:
+
+| Vorderseite                                  | Rückseite                               |
+|----------------------------------------------+-----------------------------------------|
+| E: der Schmetterling                         | the butterfly                           |
+| M: Wie rechnet man den Umfang eines Rechtecks? | 2 · Länge + 2 · Breite                 |
+| Bio: Wie heißen die drei Teile eines Insekts? | Kopf, Brust, Hinterleib                 |
+| G: Wer baute die Pyramiden von Gizeh?        | die alten Ägypter, für ihre Pharaonen   |
+
+Schreib die Karten selbst. Schon beim Schreiben lernst du ein gutes Stück.
+
+* So geht das Lernen
+
+** Neue Karten
+
+Neue Karten kommen immer *hinten* in Fach 1.
+
+** Eine Karte abfragen
+
+1. Nimm die *vorderste* Karte aus dem Fach.
+2. Lies die Frage.
+3. Sag die Antwort laut oder schreib sie auf einen Zettel. Bei Vokabeln ist
+   Aufschreiben besser, dann merkst du Rechtschreibfehler.
+4. Dreh die Karte um und vergleiche.
+
+** Wohin kommt die Karte?
+
+- *Gewusst:* Die Karte rückt ein Fach weiter nach hinten. Aus Fach 1 kommt sie
+  in Fach 2, aus Fach 2 in Fach 3 und so weiter. Sie kommt dort immer *hinten*
+  hinein.
+- *Nicht gewusst:* Die Karte geht *zurück in Fach 1*, egal in welchem Fach sie
+  war. Auch aus Fach 5 geht sie ganz zurück. Auch dort kommt sie hinten
+  hinein.
+
+#+begin_example
+     gewusst      gewusst      gewusst      gewusst      gewusst
+  +--------+   +--------+   +--------+   +--------+   +--------+
+  | Fach 1 |-->| Fach 2 |-->| Fach 3 |-->| Fach 4 |-->| Fach 5 |--> fertig!
+  +--------+   +--------+   +--------+   +--------+   +--------+
+       ^            |            |            |            |
+       +------------+------------+------------+------------+
+                     nicht gewusst: zurück in Fach 1
+#+end_example
+
+** Was heißt „gewusst“?
+
+Sei ehrlich zu dir selbst. Nur wer ehrlich ist, lernt wirklich etwas.
+
+- Ganz richtig, ohne langes Überlegen: *gewusst*.
+- Fast richtig, ein Buchstabe falsch, „lag mir auf der Zunge“: *nicht gewusst*.
+- Geraten und zufällig getroffen: *nicht gewusst*.
+
+Das ist nicht schlimm. Die Karte kommt einfach wieder dran.
+
+* Wie oft lernst du welches Fach?
+
+Fach 1 lernst du jeden Tag. Die hinteren Fächer kommen immer seltener dran.
+
+| Fach | Wann?                                  | Beispiel                 |
+|------+----------------------------------------+--------------------------|
+|    1 | an jedem Lerntag                       | Montag bis Freitag       |
+|    2 | zweimal in der Woche                   | Montag und Donnerstag    |
+|    3 | einmal in der Woche                    | Mittwoch                 |
+|    4 | alle zwei Wochen                       | jeder zweite Freitag     |
+|    5 | einmal im Monat                        | am ersten Samstag        |
+
+Dazu gibt es eine zweite Regel: *Wenn ein Fach fast voll ist, lernst du es,
+auch wenn es eigentlich nicht dran ist.* Dann machst du so viele Karten von
+vorne, bis wieder Platz ist.
+
+Von den Fächern 2 bis 5 musst du nicht jedes Mal alle Karten schaffen. Fang
+vorne an und mach, so viel du in deiner Zeit schaffst. Beim nächsten Mal
+machst du da weiter.
+
+* Wie lange lernst du?
+
+- *10 bis 15 Minuten am Tag* reichen.
+- Lieber jeden Tag ein bisschen als einmal in der Woche eine Stunde.
+  Dein Gehirn merkt sich Dinge besser, wenn sie öfter kurz wiederkommen.
+- Fünf Lerntage in der Woche sind gut. Am Wochenende darfst du Pause machen.
+- In 15 Minuten schaffst du etwa 30 bis 40 Karten.
+- Ein guter Zeitpunkt: gleich nach den Hausaufgaben. Dann wird es zur
+  Gewohnheit, wie Zähneputzen.
+
+* Was mache ich, wenn Fach 1 voll ist?
+
+Dann gilt: *Keine neuen Karten, bis wieder Platz ist.*
+
+1. Lern die Karten in Fach 1, bis genug davon nach Fach 2 gewandert sind.
+2. Erst dann schreibst du neue Karten.
+
+Noch besser ist es, wenn Fach 1 gar nicht erst voll wird:
+
+- Schreib nicht mehr als *5 bis 10 neue Karten am Tag*.
+- Fach 1 sollte meistens nur 20 bis 30 Karten haben. Die 100 Plätze sind
+  nur für den Notfall.
+- Wenn Fach 1 trotzdem dauernd voll ist, hast du zu viele Karten auf einmal
+  geschrieben, oder die Karten sind zu schwer. Teile schwere Karten in
+  mehrere kleine Karten auf.
+
+* Was passiert nach Fach 5?
+
+Wenn du eine Karte aus Fach 5 gewusst hast, dann hast du sie *fünfmal
+hintereinander auf Anhieb* gewusst: einmal in jedem Fach. Herzlichen
+Glückwunsch, diese Karte kannst du jetzt!
+
+Die Karte kommt *aus dem Kasten heraus*. Wirf sie aber nicht weg:
+
+- Sammle die fertigen Karten mit einem Gummiband oder in einem Umschlag.
+  Schreib das Schulfach drauf.
+- Vor einer Klassenarbeit oder am Ende des Schuljahres kannst du sie noch
+  einmal durchgehen.
+- Weißt du dabei eine Karte nicht mehr, kommt sie wieder in Fach 1.
+
+*Tipp für Vokabeln:* Hast du „Deutsch → Englisch“ geschafft, dreh die Karte um
+und schick sie noch einmal in Fach 1, jetzt als „Englisch → Deutsch“. Oder
+umgekehrt. Schreib dann ein kleines „R“ (für „rückwärts“) in die Ecke, damit du weißt, dass
+sie schon einmal durch ist.
+
+* Brauche ich mehrere Lernkästen?
+
+Meistens nicht. *Ein Kasten reicht* für alle Schulfächer.
+
+So behältst du trotzdem den Überblick:
+
+- Nimm für jedes Schulfach eine *andere Kartenfarbe*. Zum Beispiel:
+  Englisch gelb, zweite Fremdsprache grün, Biologie blau, Erdkunde rosa.
+- Oder schreib das Schulfach oben in die Ecke (siehe oben).
+
+Beim Lernen nimmst du die Karten so, wie sie kommen, auch gemischt. Das ist
+sogar gut: Dein Kopf muss jedes Mal umschalten, und das übt.
+
+Einen *zweiten Kasten* brauchst du nur, wenn
+
+- Fach 1 dauernd voll ist, obwohl du jeden Tag lernst, oder
+- du für eine Sprache sehr viele Vokabeln lernst und sie lieber getrennt
+  haben möchtest.
+
+Fang erst einmal mit einem Kasten an. Einen zweiten kannst du immer noch
+dazunehmen.
+
+* Lernen ohne Lernkasten: Blankokarten im Unterricht
+
+Der Kasten bleibt zu Hause. Die Karten aber kannst du überallhin mitnehmen.
+
+** Leere Karten immer dabei
+
+Steck dir 10 bis 20 leere Karten mit einem Gummiband ins Federmäppchen.
+
+Wenn im Unterricht etwas Neues oder Wichtiges kommt, schreib gleich eine
+Karte. Gute Zeichen dafür sind:
+
+- Die Lehrerin oder der Lehrer sagt: „Das ist wichtig“ oder „Das kommt in
+  der Arbeit dran“.
+- Es kommt ein neues Wort, eine neue Regel oder eine Formel.
+- Etwas steht an der Tafel eingerahmt.
+
+Wenn die Zeit nicht reicht, schreib nur die *Frage* auf die Vorderseite. Die
+Antwort schreibst du zu Hause aus deinem Heft oder Buch dazu.
+
+Zu Hause kommen die neuen Karten hinten in Fach 1.
+
+** Karten unterwegs lernen
+
+Du kannst dir ein paar Karten aus Fach 1 mitnehmen, zum Beispiel für die
+Busfahrt oder die Pause.
+
+1. Nimm 10 bis 20 Karten von vorne aus Fach 1 und mach ein Gummiband drum.
+2. Unterwegs machst du zwei Stapel: *gewusst* und *nicht gewusst*.
+3. Leg um jeden Stapel ein eigenes Gummiband, damit nichts durcheinander kommt.
+4. Zu Hause sortierst du ein: „gewusst“ hinten in Fach 2, „nicht gewusst“
+   hinten in Fach 1.
+
+** Mit der Banknachbarin üben
+
+Tauscht eure Karten und fragt euch gegenseitig ab. Die Fragende liest die
+Vorderseite vor und schaut auf die Rückseite. Wer gefragt wird, sieht die
+Karte nicht.
+
+* Fragen, auf die du die Antwort nicht weißt
+
+Manchmal weißt du eine Frage, aber nicht die Antwort. Oder du bist dir nicht
+sicher, ob deine Antwort stimmt. Dann:
+
+1. Schreib die Frage auf die Karte und mal ein großes *?* auf die Rückseite.
+2. Leg die ?-Karten *nicht* in den Kasten. Sammle sie getrennt, zum Beispiel
+   vorne im Heft.
+3. Such die Antwort. Erst wenn die Antwort drauf steht, kommt die Karte in
+   Fach 1.
+
+** Wo findest du die Antwort?
+
+Am besten in dieser Reihenfolge:
+
+1. *Heft und Schulbuch.* Oft steht es dort schon.
+2. *Deine Lehrerin oder dein Lehrer.* Frag nach der Stunde oder am nächsten
+   Tag. Lehrerinnen und Lehrer freuen sich über solche Fragen! Nimm die Karte
+   einfach mit.
+3. *Nachhilfe*, Eltern oder ältere Geschwister.
+4. *KI* (zum Beispiel ein Chat-Programm). Lies dazu den nächsten Abschnitt.
+
+** Wenn du eine KI fragst
+
+Eine KI kann gut erklären. Aber sie macht auch Fehler, und sie klingt dabei
+trotzdem sehr sicher. Deshalb:
+
+- Sag der KI, wer du bist. Zum Beispiel:
+
+  #+begin_quote
+  Ich bin in der 6. Klasse Gymnasium. Erklär mir bitte in einfachen Worten
+  und in höchstens drei Sätzen: Warum schwimmt Holz auf dem Wasser?
+  #+end_quote
+
+- Wenn du etwas nicht verstehst, frag nach: „Kannst du das mit einem
+  Beispiel erklären?“
+- Schreib die Antwort *in deinen eigenen Worten* auf die Karte. Nicht einfach
+  abschreiben.
+- Prüf die Antwort mit deinem Schulbuch oder frag kurz deine Lehrerin oder
+  deinen Lehrer. Mach ein kleines Häkchen auf die Karte, wenn es geprüft ist.
+- Lass die KI *nicht* alle deine Karten schreiben. Das Schreiben ist ein
+  wichtiger Teil vom Lernen.
+
+* Die wichtigsten Regeln auf einen Blick
+
+1. Neue Karten kommen *hinten in Fach 1*.
+2. Du nimmst die Karten immer *von vorne*.
+3. *Gewusst:* ein Fach weiter. *Nicht gewusst:* zurück in Fach 1.
+4. Fach 1 jeden Tag, die anderen Fächer seltener.
+5. *10 bis 15 Minuten am Tag*, lieber oft und kurz.
+6. Fach 1 voll? *Erst lernen, dann neue Karten.*
+7. Aus Fach 5 gewusst? *Fertig!* Karte heraus und aufheben.
+8. Ein Kasten für alle Fächer. Farben helfen beim Sortieren.
+9. Leere Karten immer im Federmäppchen.
+10. Antwort unklar? ?-Karte, dann Buch, Lehrer, Nachhilfe oder KI fragen.
