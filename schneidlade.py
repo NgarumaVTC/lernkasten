@@ -7,7 +7,7 @@ Holzvorrichtung mit Cutterklinge, gebaut von den Tischlerlehrlingen in Ngaruma.
 Sie schneidet alle Kartonteile ohne Messen: Karton gegen den Anschlag schieben,
 Schiene ablassen, Schlitten durchziehen.
 
-Aufruf (headless):   cd karton && freecadcmd schneidlade.py
+Aufruf (headless):   freecadcmd schneidlade.py
 
 Aufbau (x = Schnittrichtung, y = vom Bediener weg, z = oben; Schnittlinie y = 0):
   - Grundplatte mit Opferleiste unter der Schnittlinie

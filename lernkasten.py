@@ -5,7 +5,7 @@ Lernkasten DIN A7 – fünf Fächer, braune Wellpappe
 
 Parametrische FreeCAD-Konstruktion für NgarumaVTC.
 
-Aufruf (headless):   cd karton && freecadcmd lernkasten.py
+Aufruf (headless):   freecadcmd lernkasten.py
 Kartonstärke testen: LERNKASTEN_T=3 freecadcmd lernkasten.py
 
 Aufbau:
